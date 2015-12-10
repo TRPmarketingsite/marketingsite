@@ -1,0 +1,34 @@
+.trp-template-header {
+	height: 236px;
+	background-color: $brand-primary;
+	.trp-template-header-content {
+		padding-top: 90px;
+		color: #fff;
+	}
+}
+
+.navbar-brand {
+	img {
+		max-width: 270px;
+		margin-top: -25px;
+	}
+}
+
+.navbar {
+	margin-bottom: 0;
+    height: 150px;
+    & > .container {
+    	margin-top: 47px;
+    }
+}
+
+.navbar-default {
+	background-color: #fff;
+	text-transform: uppercase;
+	.active {
+		a {
+			background-color: transparent!important;
+			color: $brand-primary!important;
+		}
+	}
+}
