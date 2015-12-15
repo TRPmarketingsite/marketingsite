@@ -27,7 +27,10 @@ function setup() {
   // Register wp_nav_menu() menus
   // http://codex.wordpress.org/Function_Reference/register_nav_menus
   register_nav_menus([
-    'primary_navigation' => __('Primary Navigation', 'sage')
+    'primary_navigation' => __('Primary Navigation', 'sage'),
+      'footer_navigation_1' => __('Footer Navigation - Column 1', 'sage'),
+      'footer_navigation_2' => __('Footer Navigation - Column 2', 'sage'),
+      'footer_navigation_3' => __('Footer Navigation - Column 3', 'sage')
   ]);
 
   // Enable post thumbnails
