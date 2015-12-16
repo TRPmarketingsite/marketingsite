@@ -28,6 +28,7 @@ function create_post_types() {
 			'supports' => array('title', 'editor', 'thumbnail', 'page-attributes'),
 			'public' => true,
 			'has_archive' => false,
+			'rewrite' => array( 'slug' => 'team/member' ),
 			'menu_icon' => 'dashicons-businessman'
 		)
 	);

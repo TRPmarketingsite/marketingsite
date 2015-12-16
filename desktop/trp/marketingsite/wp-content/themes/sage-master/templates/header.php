@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="<?= esc_url(home_url('/')); ?>">
-        <img src="<?php echo get_template_directory_uri() . '/assets/images/logo.jpg' ?>" alt="">
+        <img src="<?php echo get_template_directory_uri() . '/assets/images/trp-logo.png' ?>" alt="">
       </a>
     </div>
 

@@ -1,9 +1,137 @@
-.trp-team {
+.trp-button {
+	background-color: #e94d6e;
+	color: #fff;
+	padding: 15px 45px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	margin-top: 17px;
+	display: inline-block;
+	text-decoration: none;
+	float: right;
+	&:hover,
+	&:active,
+	&:focus {
+		text-decoration: none;
+	}
+}
 
+.trp-team {
+	p {
+		margin-top: 110px;
+		font-size: 20px;
+		color: #40474f;
+	}
+	h2 {
+		margin-top: 100px;
+		margin-bottom: 80px;
+	}
+}
+
+.trp-team-nav {
+	a {
+		font-size: 18px;
+		color: #fff;
+		padding-right: 30px;
+	}
 }
 
 .trp-team-member {
+	text-align: center;
+	margin-bottom: 60px;
+	a {
+		.trp-member-overlay {
+			display: none;
+			p {
+				margin-top: 0;
+				color: #fff;
+				font-size: 25px;
+				margin-bottom: 0;
+			}
+		}
+		&:hover {
+			.trp-member-overlay {
+				height: 340px;
+				position: absolute;
+				width: 340px;
+				background-color: rgba(107,200,202,0.7);
+				display: block;
+				border-radius: 100%;
+				padding-top: 140px;
+			}
+		}
+	}
 	img {
 		width: 100%;
+		max-width: 340px;
+		height: 340px;
+		-moz-border-radius: 100%;
+		-webkit-border-radius: 100%;
+		border-radius: 100%;
+	}
+	h4 {
+		font-size: 25px;
+		color: #53c1c0;
+		margin-top: 30px;
+		font-weight: bold;
+	}
+	span {
+		font-size: 20px;
+		color: #89929b;
+		font-style: italic;
+	}
+}
+
+.trp-team-nav {
+	height: 70px;
+	background-color: #40474f;
+	padding-top: 25px;
+}
+
+.trp-advisors {
+	background-color: #eefefe;
+	padding-bottom: 200px;
+	h2 {
+		font-size: 50px;
+		color: #40474f;
+		margin-top: 140px;
+	}
+	h4 {
+		font-size: 25px;
+		font-weight: bold;
+		color: #53c1c0;
+		margin-bottom: 40px;
+		margin-top: 100px;
+	}
+	span {
+		font-size: 20px;
+		color: #89929b;
+		font-style: italic;
+	}
+}
+
+.trp-free-trial-container {
+	height: initial;
+	text-align: center;
+	.trp-free-trial {
+		background: #fff;
+		border-radius: 100px;
+		height: 58px;
+		margin-bottom: 120px;
+		padding-right: 4px;
+		margin-top: 40px;
+	}
+	input[type=text] {
+		border: none;
+		float: left;
+		margin-top: 17px;
+		margin-left: 50px;
+		width: 50%;
+	}
+	a {
+		margin-top: 4px;
+	}
+	h2 {
+		font-weight: bold;
 	}
 }

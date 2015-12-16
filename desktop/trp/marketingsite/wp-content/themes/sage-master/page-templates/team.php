@@ -4,56 +4,91 @@
 
 <div class="trp-template-header">
 	<div class="trp-template-header-content container">
-		<h1>Team</h1>
-	</div>
-</div>
-<div class="trp-team-nav">
-	<div class="container">
-		<a href="#">Team</a>
-		<a href="#">Advisors</a>
+		<div class="row">
+			<div class="col-md-6">
+				<h1>
+					Team
+				</h1>
+			</div>
+			<div class="col-md-6">
+				<a href="#" class="trp-button">
+					Try it Today. <strong>FOR FREE.</strong>
+				</a>
+			</div>
+		</div>
 	</div>
 </div>
 
-<div class="container">
-	<div class="row trp-team">
+<div class="trp-team-nav">
+	<div class="container">
+		<a href="#members">Team</a>
+		<a href="#advisors">Advisors</a>
+	</div>
+</div>
+
+<div class="trp-team">
+	<div class="container">
 		<p>
 			The Right Place was founded by industry experts who are committed to improving patient placement and providing better outcomes for everyone involved. We have an experienced team of clinical and administrative healthcare experts as well as seasoned product designers, engineers, and marketers. We are a passionate team committed to building a great product and simplifying and improving this area of healthcare.
 		</p>
-	</div>
-	<h2>Team</h2>
+		<h2>
+			Team
+		</h2>
 
-	<?php
-	$team_members = new WP_Query(array('post_type' => 'team_member', 'posts_per_page' => -1 ));
-	while ($team_members->have_posts()) : $team_members->the_post();
-		$member_title = get_post_meta( $post->ID, 'trp-team-member-title', true);
-		$member_bio = get_post_meta( $post->ID, 'trp-team-member-bio', true ); 
-		$member_pic = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
-	?>
-	<div class="col-md-4 trp-team-member">
-
-		<img src="<?= $member_pic ?>" alt="<? the_title(); ?>">
-		<h4>
-			<? the_title(); ?>
-		</h4>
-		<span>
-			<?= $member_title ?>
-		</span>
+		<div id="members">
+			<?php
+			$team_members = new WP_Query(
+								array(	'post_type' => 'team_member',
+										'posts_per_page' => -1, 
+										'orderby' => 'menu_order',
+										'order' => 'DESC'
+									)
+								);
+			while ($team_members->have_posts()) : $team_members->the_post();
+				$member_title = get_post_meta( $post->ID, 'trp-team-member-title', true);
+				$member_bio = get_post_meta( $post->ID, 'trp-team-member-bio', true ); 
+				$member_pic = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+			?>
+			<div class="col-md-4 col-sm-6 trp-team-member">
+				<a href="<? the_permalink() ?>">
+					<div class="trp-member-overlay">
+						<p>View profile</p>
+						<p>></p>
+					</div>
+					<img src="<?= $member_pic ?>" alt="<? the_title(); ?>">
+				</a>
+				<h4>
+					<? the_title(); ?>
+				</h4>
+				<span>
+					<?= $member_title ?>
+				</span>
+			</div>
+			<?php
+			endwhile;
+			?>
+		</div>
 	</div>
-	<?php
-	endwhile;
-	?>
 </div>
 
 <div class="trp-advisors">
 	<div class="container">
-		<div class="row">
-			<h2>Advisors</h2>
-
+		<h2>
+			Advisors
+		</h2>
+		<div id="advisors" class="row">
 			<?php
-			$team_members = new WP_Query(array('post_type' => 'advisor', 'posts_per_page' => -1 ));
+			$team_members = new WP_Query(
+								array(
+									'post_type' => 'advisor',
+									'posts_per_page' => -1,
+									'orderby' => 'menu_order',
+									'order' => 'DESC'
+								)
+							);
 			while ($team_members->have_posts()) : $team_members->the_post();
 			?>
-			<div class="col-md-4">
+			<div class="col-md-4 col-sm-6">
 				<h4>
 					<? the_title(); ?>
 				</h4>
@@ -64,6 +99,25 @@
 			<?php
 			endwhile;
 			?>
+		</div>
+	</div>
+</div>
+
+<div class="trp-template-header trp-free-trial-container">
+	<div class="trp-template-header-content container">
+		<h2>
+			Start a FREE 30 day trial today
+		</h2>
+		<span>
+			There's no contract and no obligation!
+		</span>
+		<div class="row">
+			<div class="trp-free-trial col-md-offset-2 col-md-8">
+				<input type="text" placeholder="email address">
+				<a href="#" class="trp-button">
+					Try it Today. <strong>FOR FREE.</strong>
+				</a>
+			</div>
 		</div>
 	</div>
 </div>
