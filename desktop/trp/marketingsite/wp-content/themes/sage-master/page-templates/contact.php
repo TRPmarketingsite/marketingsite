@@ -44,20 +44,4 @@
 			</form>
 		</div>
 	</div>
-
-	<div class="trp-contact-badges row">
-		<hr class="col-md-offset-3 col-md-6">
-		<div class="col-md-offset-2 col-md-2">
-			<img src="<?php echo get_template_directory_uri() . '/assets/images/badge-1.jpg' ?>" alt="Beth Israel Deaconess Medical Center">
-		</div>
-		<div class="col-md-2">
-			<img src="<?php echo get_template_directory_uri() . '/assets/images/badge-2.jpg' ?>" alt="Atrius Health">
-		</div>
-		<div class="col-md-2">
-			<img src="<?php echo get_template_directory_uri() . '/assets/images/badge-3.jpg' ?>" alt="Harvard Medical School Teaching Hospital">
-		</div>
-		<div class="col-md-2">
-			<img src="<?php echo get_template_directory_uri() . '/assets/images/badge-4.jpg' ?>" alt="Beth Israel Deaconess Care Organization">
-		</div>
-	</div>
 </div>
