@@ -1,0 +1,175 @@
+// hero section
+
+.page-template-page-templateshome-php {
+	header {
+		background-color: #f5fefe;
+    	border: none;
+	}
+	.trp-home-masthead {
+		background-color: #f5fefe;
+		position: relative;
+		img {
+			width: 100%;
+			margin: 70px 0;
+		}
+		.row {
+			display: table;
+		}
+		[class*="col-"] {
+			float: none;
+			display: table-cell;
+			vertical-align: middle;
+		}
+		strong {
+			display: block;
+		}
+		a {
+			float: left;
+		}
+	}
+	.trp-home-masthead-bottom {
+		background-color: #e1f7f7;
+		height: 135px;
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+	}
+}
+
+// Features section
+
+.trp-features-hospitals {
+	.trp-feature {
+		background-color: #80b2d9;
+	}
+}
+
+.trp-features-facilities {
+	.trp-feature {
+		background-color: #63c4c3;
+	}
+}
+
+.trp-features-orgs {
+	.trp-feature {
+		background-color: #a491ba;
+	}
+}
+
+.trp-features {
+    position: relative;
+    margin-bottom: 66px;
+    margin-top: 110px;
+    h2 {
+    	font-size: 50px;
+    	color: #40474f;
+    }
+    p {
+    	font-size: 20px;
+    	color: #40474f;
+    }
+	.trp-feature {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		border-radius: 100%;
+		margin: 0 15px;
+		color: #fff;
+		font-size: 20px;
+		padding-top: 50px;
+		a {
+			border: 2px solid #fff;
+			border-radius: 50px;
+			padding: 15px 20px;
+			color: #fff;
+		}
+		i {
+			font-size: 100px;
+		}
+	}
+	.trp-feature-helper {
+		margin-top: 100%;
+	}
+}
+
+// use today section
+
+.trp-use-today {
+	background-color: #53c1c0;
+	color: #fff;
+	padding-top: 90px;
+	padding-bottom: 124px;
+	span {
+		display: block;
+	}
+	a {
+		float: none;
+		margin-top: 50px;
+	}
+}
+
+// testimonials
+
+.trp-testimonials {
+	padding-bottom: 160px;
+	padding-top: 240px;
+	.trp-testimonial-title,
+	.trp-testimonial-hospital-name,
+	.trp-testimonial-name {
+		color: #40474f;
+	}
+	.trp-testimonial-title {
+		font-size: 48px;
+	}
+	.trp-testimonial-hospital-name,
+	.trp-testimonial-name {
+		font-size: 18px;
+		display: block;
+	}
+	.trp-testimonial-name {
+		text-transform: capitalize;
+	}
+	.trp-testimonial-hospital-name {
+		font-style: italic;
+	}
+}
+
+// mobile section
+
+.trp-mobile-app-analytics,
+.trp-mobile-app {
+	background-color: #eefefe;
+	.row {
+		display: table;
+	}
+	[class*="col-"] {
+		float: none;
+		display: table-cell;
+		vertical-align: middle;
+	}
+	img {
+		margin-top: 64px;
+		width: 100%;
+	}
+	h2 {
+		font-size: 50px;
+		color: #40474f;
+	}
+	li {
+		font-size: 20px;
+		color: #40474f;
+		padding-bottom: 17px;
+	}
+	ul {
+		padding-top: 30px;
+	}
+}
+
+.trp-mobile-app-analytics {
+	background-color: #fff;
+	img {
+		margin: 125px 0;
+	}
+}

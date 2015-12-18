@@ -30,7 +30,7 @@ $trp_team_member_title = get_post_meta( $post->ID, 'trp-team-member-title', true
                 <div class="col-md-4">
                     <div class="avatar-content">
                         <p>
-                            <img src="http://therightplace.wpengine.com/wp-content/uploads/2015/12/alan-abrams-300x300.png" alt="">
+                            <img src="<?= wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?> " alt="">
                         </p>
                         <span><? the_title() ?></span>
                         <p><?= $trp_team_member_title ?></p>
