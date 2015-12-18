@@ -1,32 +1,32 @@
 @font-face {
-    font-family: 'GramBold';
-    src: url('../fonts/typesketchbook_-_gram.bold-webfont.eot');
-    src: url('../fonts/typesketchbook_-_gram.bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/typesketchbook_-_gram.bold-webfont.woff2') format('woff2'),
-         url('../fonts/typesketchbook_-_gram.bold-webfont.woff') format('woff'),
-         url('../fonts/typesketchbook_-_gram.bold-webfont.ttf') format('truetype');
+    font-family: 'ProximaNovaBold';
+    src: url('../fonts/proxima-nova-bold.eot');
+    src: url('../fonts/proxima-nova-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima-nova-bold.woff2') format('woff2'),
+         url('../fonts/proxima-nova-bold.woff') format('woff'),
+         url('../fonts/proxima-nova-bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
-    font-family: 'GramRegular';
-    src: url('../fonts/typesketchbook_-_gram.regular-webfont.eot');
-    src: url('../fonts/typesketchbook_-_gram.regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/typesketchbook_-_gram.regular-webfont.woff2') format('woff2'),
-         url('../fonts/typesketchbook_-_gram.regular-webfont.woff') format('woff'),
-         url('../fonts/typesketchbook_-_gram.regular-webfont.ttf') format('truetype');
+    font-family: 'ProximaNovaRegular';
+    src: url('../fonts/proxima-nova-regular.eot');
+    src: url('../fonts/proxima-nova-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima-nova-regular.woff2') format('woff2'),
+         url('../fonts/proxima-nova-regular.woff') format('woff'),
+         url('../fonts/proxima-nova-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-
 }
 
-
-/*
-proximanova-boldit-webfont.ttf
-proximanova-bold-webfont.ttf
-ProximaNova-Light.otf
-proximanova-regitalic-webfont.ttf
-ProximaNova-Regular.otf
-*/
+@font-face {
+    font-family: 'ProximaNovaLight';
+    src: url('../fonts/proxima-nova-light.eot');
+    src: url('../fonts/proxima-nova-light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima-nova-light.woff2') format('woff2'),
+         url('../fonts/proxima-nova-light.woff') format('woff'),
+         url('../fonts/proxima-nova-light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
