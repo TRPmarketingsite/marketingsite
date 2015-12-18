@@ -90,7 +90,8 @@ function display_sidebar() {
     is_front_page(),
     is_page_template('template-custom.php'),
     is_page_template('page-templates/contact.php'),
-    is_page_template('page-templates/team.php')
+    is_page_template('page-templates/team.php'),
+      is_page_template('page-templates/profile.php')
   ]);
 
   return apply_filters('sage/display_sidebar', $display);
