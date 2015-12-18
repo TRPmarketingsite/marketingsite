@@ -1,0 +1,33 @@
+.trp-page-body{
+  padding-top: 80px;
+  text-align: center;
+  .avatar-content{
+    img{
+      float: none;
+    }
+    span{
+      color: #53c1c0;
+      font-size: 26px;
+    }
+    p{
+      font-style: italic;
+      color: #89929b;
+    }
+  }
+  .text-area{
+    h2{
+      color: #6bcbca;
+      text-align: left;
+      line-height: 40px;
+      font-size: 34px;
+      font-weight: 400;
+      padding-bottom: 10px;
+    }
+    p{
+      color: #40474f;
+      text-align: left;
+      font-size: 17px;
+      line-height: 27px;
+    }
+  }
+}
