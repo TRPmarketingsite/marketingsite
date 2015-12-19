@@ -15,7 +15,7 @@
 				</h1>
 			</div>
 			<div class="col-md-offset-1 col-md-7">
-				<img src="<?= get_stylesheet_directory_uri() ?> /assets/images/hero.png" alt="">
+				<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/hero.png" alt="">
 			</div>
 		</div>
 	</div>
@@ -32,14 +32,14 @@
 		<div class="col-sm-4 col-xs-12 trp-features-hospitals">
 			<div class="trp-feature-helper"></div>
 			<div class="trp-feature">
-				<img src="<?= get_stylesheet_directory_uri() ?> /assets/images/1.jpg" alt="">
+				<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/1.jpg" alt="">
 				<h4>
 					HOSPITALS
 				</h4>
 				<p>
 					Hospital Case Managers can quickly search and identify available SNFs by capabilities and needs of the patient
 				</p>
-				<a href="">
+				<a href="#">
 					Learn More
 				</a>
 			</div>
@@ -47,7 +47,7 @@
 		<div class="col-sm-4 col-xs-12 trp-features-facilities">
 			<div class="trp-feature-helper"></div>
 			<div class="trp-feature">
-				<img src="<?= get_stylesheet_directory_uri() ?> /assets/images/2.jpg" alt="">
+				<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/2.jpg" alt="">
 				<h4>
 					SKILLED NURSING FACILITIES
 				</h4>
@@ -62,14 +62,14 @@
 		<div class="col-sm-4 col-xs-12 trp-features-orgs">
 			<div class="trp-feature-helper"></div>
 			<div class="trp-feature">
-				<img src="<?= get_stylesheet_directory_uri() ?> /assets/images/3.jpg" alt="">
+				<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/3.jpg" alt="">
 				<h4>
 					Accountable Care Orgs
 				</h4>
 				<p>
 					Track patients through auto-generated real time alerts and ACO patient dashboard
 				</p>
-				<a href="">
+				<a href="#">
 					Learn More
 				</a>
 			</div>
@@ -100,7 +100,7 @@
 				</ul>
 			</div>
 			<div class="col-md-4">
-				<img src="<?= get_stylesheet_directory_uri() ?> /assets/images/mobile-app.png" alt="">
+				<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/mobile-app.png" alt="">
 			</div>
 		</div>
 	</div>
@@ -110,7 +110,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-7">
-				<img src="<?= get_stylesheet_directory_uri() ?> /assets/images/analytics.png" alt="">
+				<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/analytics.png" alt="">
 			</div>
 			<div class="col-md-5">
 				<h2>
@@ -149,16 +149,29 @@
 </div>
 
 <div class="trp-testimonials text-center">
+	<?php 
+	$testimonials = query_posts(array('post_type' => 'testimonial','post_status' => 'publish'));
+
+	if (count($testimonials)) {
+		shuffle($testimonials);
+		$testimonial = $testimonials[0];
+	}
+
+	$trp_testimonial = get_post_meta( $testimonial->ID, 'trp-testimonial', true );
+	$trp_testimonial_name = get_post_meta( $testimonial->ID, 'trp-testimonial-name', true );
+	$trp_testimonial_hospital = get_post_meta( $testimonial->ID, 'trp-testimonial-hospital', true );
+
+	?>
 	<div class="container">
 		<i class="icon-quote"></i>
 		<h3 class="trp-testimonial-title">
-			This is the client testimonial space. This text will be replaced.
+			<?= $trp_testimonial ?>
 		</h3>
 		<span class="trp-testimonial-name">
-			NAME GOES HERE
+			<?= $trp_testimonial_name ?>
 		</span>
 		<span class="trp-testimonial-hospital-name">
-			XYZ Hospital
+			<?= $trp_testimonial_hospital ?>
 		</span>
 	</div>
 </div>
