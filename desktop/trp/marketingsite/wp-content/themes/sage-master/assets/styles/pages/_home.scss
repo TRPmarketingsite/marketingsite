@@ -4,13 +4,14 @@
 	header {
 		background-color: #f5fefe;
     	border: none;
+    	height: 130px;
 	}
 	.trp-home-masthead {
 		background-color: #f5fefe;
 		position: relative;
 		img {
 			width: 100%;
-			margin: 70px 0;
+			margin: 120px 0 70px 0;
 		}
 		.row {
 			display: table;
@@ -26,10 +27,13 @@
 		a {
 			float: left;
 		}
+		h1 {
+			margin-top: 0;
+		}
 	}
 	.trp-home-masthead-bottom {
 		background-color: #e1f7f7;
-		height: 135px;
+		height: 140px;
 		position: absolute;
 		bottom: 0;
 		width: 100%;
@@ -61,12 +65,23 @@
     margin-bottom: 66px;
     margin-top: 110px;
     h2 {
-    	font-size: 50px;
-    	color: #40474f;
+		font-size: 50px;
+		font-family: ProximaNovaLight;
+		color: #40474f;
+		line-height: 56px;
+		margin-bottom: 40px;
     }
     p {
     	font-size: 20px;
     	color: #40474f;
+		font-family: ProximaNovaLight;
+		line-height: 30px;
+		strong {
+			font-family: ProximaNovaBold;
+		}
+    }
+    .row {
+    	margin-top: 70px;
     }
 	.trp-feature {
 		position: absolute;
@@ -78,15 +93,32 @@
 		margin: 0 15px;
 		color: #fff;
 		font-size: 20px;
-		padding-top: 50px;
+		padding-top: 34px;
+		img {
+			max-width: 175px;
+		}
 		a {
 			border: 2px solid #fff;
 			border-radius: 50px;
-			padding: 15px 20px;
+			padding: 11px 20px;
 			color: #fff;
+			display: inline-block;
+			&:hover,
+			&:active,
+			&:focus {
+				text-decoration: none;
+			}
 		}
-		i {
-			font-size: 100px;
+		h4 {
+			font-size: 22px;
+			font-family: ProximaNovaBold;
+		}
+		p {
+			color: #fff;
+			line-height: 18px;
+			font-size: 18px;
+			padding: 0 30px;
+			margin-bottom: 25px;
 		}
 	}
 	.trp-feature-helper {
@@ -101,8 +133,14 @@
 	color: #fff;
 	padding-top: 90px;
 	padding-bottom: 124px;
+	h2 {
+		font-size: 50px;
+		font-family: ProximaNovaRegular;
+	}
 	span {
 		display: block;
+		font-size: 20px;
+		font-family: ProximaNovaRegular;
 	}
 	a {
 		float: none;
@@ -113,8 +151,12 @@
 // testimonials
 
 .trp-testimonials {
-	padding-bottom: 160px;
-	padding-top: 240px;
+	padding-bottom: 130px;
+	padding-top: 100px;
+	i {
+		color: #53c1c0;
+		font-size: 55px;
+	}
 	.trp-testimonial-title,
 	.trp-testimonial-hospital-name,
 	.trp-testimonial-name {
@@ -122,11 +164,14 @@
 	}
 	.trp-testimonial-title {
 		font-size: 48px;
+		font-family: ProximaNovaLight;
+		margin-bottom: 25px;
 	}
 	.trp-testimonial-hospital-name,
 	.trp-testimonial-name {
 		font-size: 18px;
 		display: block;
+		font-family: ProximaNovaRegular;
 	}
 	.trp-testimonial-name {
 		text-transform: capitalize;
@@ -156,14 +201,22 @@
 	h2 {
 		font-size: 50px;
 		color: #40474f;
+		font-family: ProximaNovaLight;
 	}
 	li {
 		font-size: 20px;
 		color: #40474f;
-		padding-bottom: 17px;
+		padding-bottom: 13px;
+		font-family: ProximaNovaLight;
+		list-style-type: none;
+	}
+	i {
+		color: #53c1c0;
+		margin-right: 13px;
 	}
 	ul {
 		padding-top: 30px;
+		padding-left: 0;
 	}
 }
 
