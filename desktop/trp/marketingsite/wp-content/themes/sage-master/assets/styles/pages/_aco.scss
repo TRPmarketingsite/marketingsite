@@ -1,0 +1,40 @@
+.trp-aco-hero {
+	position: relative;
+	overflow: hidden;
+	.trp-aco-hero-img {
+		top: -9999px;
+		bottom: -9999px;
+		left: -9999px;
+		right: -9999px;
+		margin: auto;
+		position: absolute;
+	}
+	h1 {
+		font-size: 70px;
+		color: #fff;
+		margin-top: 50px;
+		margin-bottom: 30px;
+	}
+	p {
+		font-size: 20px;
+		color: #fff;
+		line-height: 32px;
+	}
+	a {
+		margin-bottom: 120px;
+	}
+	.trp-aco-icon {
+		margin-top: 90px;
+	}
+}
+
+.trp-aco-section {
+	p {
+		font-size: 20px;
+		color: #56c2c1;
+		margin-bottom: 0;
+	}
+	h2 {
+		margin-top: 0;
+	}
+}

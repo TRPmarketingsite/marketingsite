@@ -92,7 +92,8 @@ function display_sidebar() {
     is_page_template('template-custom.php'),
     is_page_template('page-templates/contact.php'),
     is_page_template('page-templates/team.php'),
-    is_page_template('page-templates/home.php')
+    is_page_template('page-templates/home.php'),
+    is_page_template('page-templates/aco.php')
   ]);
 
   return apply_filters('sage/display_sidebar', $display);
