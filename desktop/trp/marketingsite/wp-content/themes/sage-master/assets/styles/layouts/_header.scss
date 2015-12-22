@@ -25,6 +25,15 @@
 .navbar-default {
 	background-color: #fff;
 	text-transform: uppercase;
+	a {
+		font-family: ProximaNovaRegular;
+		font-size: 18px;
+		&:hover,
+		&:active,
+		&:focus {
+			color: #6bcbca!important;
+		}
+	}
 	.active {
 		a {
 			background-color: transparent!important;
