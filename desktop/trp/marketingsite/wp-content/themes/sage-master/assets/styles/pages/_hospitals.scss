@@ -1,0 +1,13 @@
+.trp-hospitals-section-2-img {
+	margin: 125px 0!important;
+}
+
+.trp-hospitals-logo {
+	margin-top: 120px;
+	& + h1 {
+		margin-top: 20px;
+		& + p {
+			margin-bottom: 200px;
+		}
+	}
+}
