@@ -8,33 +8,56 @@
 		width: 100%;
 	}
 	h2 {
+		margin-top: 0;
 		margin-bottom: 65px;
+		font-size: 50px;
+		font-family: ProximaNovaLight;
 	}
 	.trp-contact-number {
 		margin-bottom: 75px;
 		display: block;
+		font-family: ProximaNovaRegular;
+		strong {
+			font-family: ProximaNovaBold;
+		}
+	}
+	span {
+		font-family: ProximanovaRegular;
+		font-size: 20px;
 	}
 	.trp-office-label {
 		color: $brand-primary;
 		display: block;
 		margin-top: 35px;
+		font-family: ProximanovaBold;
 	}
 }
 
 .trp-contact-form {
+	.trp-contact-field-wrapper {
+		position: relative;
+	}
+	i {
+		color: #7ec5c4;
+		margin-top: 27px;
+		margin-left: 20px;
+		display: block;
+		position: absolute;
+	}
 	h4 {
 		text-transform: uppercase;
 		color: $brand-primary;
-		font-weight: bold;
+		font-family: ProximaNovaBold;
 		padding-bottom: 22px;
 	}
 	input {
-		padding: 20px 0 20px 40px;
+		padding: 20px 20px 20px 40px;
 	}
 	input,
 	textarea {
 		font-size: 20px;
 		width: 100%;
+		font-family: ProximaNovaRegular;
 	}
 	input[type=text],
 	textarea {
@@ -54,6 +77,11 @@
 		padding: 10px 0;
 		font-weight: bold;
 		color: #fff;
+		font-family: ProximaNovaBold;
+	}
+	textarea {
+		padding-top: 20px;
+		padding-right: 20px;
 	}
 }
 
