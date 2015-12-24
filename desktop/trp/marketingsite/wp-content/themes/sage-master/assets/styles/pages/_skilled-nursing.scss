@@ -1,15 +1,85 @@
-.skilled-nursing{
-  .trp-mobile-app img, .trp-mobile-app-analytics img{
+.skilled-nursing {
+  .trp-mobile-app img, .trp-mobile-app-analytics img {
     width: 120%;
   }
-  .trp-mobile-app li, .trp-mobile-app-analytics li{
+  .trp-mobile-app li, .trp-mobile-app-analytics li {
     font-size: 18px;
   }
-  .trp-mobile-app-analytics img{
+  .trp-mobile-app-analytics img {
     margin: -310px -70px;
     position: absolute;
   }
-  .left-content{
+  .left-content {
     padding-top: 60px;
+  }
+  ul {
+    margin: 0px;
+    padding-left: 15px;
+  }
+
+  ul li {
+    margin: 0px;
+    padding: 0px;
+    text-indent: -1em;
+    margin-left: 1em;
+  }
+
+  ul {
+    margin: 0;
+    padding-left: 45px;
+  }
+
+  ul li {
+    margin: 10px 0px;
+    padding: 0px;
+    text-indent: -2em;
+    margin-left: -0.5em;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  .skilled-nursing {
+    .trp-aco-hero .trp-aco-icon{
+      margin-top: 30px;
+    }
+  }
+}
+@media only screen and (max-width : 600px) {
+  .skilled-nursing {
+    .trp-aco-hero h1{
+      font-size: 40px;
+    }
+    .trp-mobile-app [class*=col-], .trp-mobile-app-analytics [class*=col-]{
+      display: block !important;
+    }
+    .trp-mobile-app-analytics img{
+      margin: 0px;
+      position: relative;
+      width: 100%;
+    }
+    .trp-mobile-app img{
+      width: auto;
+    }
+    .trp-aco-label{
+      padding-top: 45px;
+    }
+  }
+}
+@media only screen and (max-width : 480px) {
+  .skilled-nursing {
+    .trp-aco-hero .trp-aco-icon{
+      margin-top: 30px;
+    }
+    .trp-mobile-app-analytics img{
+      margin: 0px;
+      position: relative;
+      width: 100%;
+    }
+    .trp-mobile-app img{
+      width: auto;
+    }
+    .trp-aco-label{
+      padding-top: 45px;
+    }
   }
 }

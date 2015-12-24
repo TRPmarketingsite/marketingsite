@@ -26,7 +26,7 @@
 	<div class="trp-mobile-app-analytics trp-aco-section">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-5 left-content">
+				<div class="col-md-5 left-content col-xs-12">
 					<p>
 						Right Place BedBoard App for iPad
 					</p>
@@ -63,21 +63,21 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-md-7">
+				<div class="col-md-7 col-xs-12">
 					<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/blackscreen.png" alt="">
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="trp-mobile-app trp-aco-section">
+	<div class="trp-mobile-app trp-aco-section trp-aco-btext">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-4 col-xs-12">
 					<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/phone2.png" alt="">
 				</div>
-				<div class="col-md-1"></div>
-				<div class="col-md-7">
+				<div class="col-md-1 col-xs-12"></div>
+				<div class="col-md-7 col-xs-12">
 					<p class="trp-aco-label">
 						The Right Place Case Messenger App for iPhone
 					</p>
