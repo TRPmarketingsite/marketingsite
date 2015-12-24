@@ -1,0 +1,39 @@
+.trp-about-section {
+	span {
+		font-size: 20px;
+		font-family: ProximaNovaRegular;
+		color: #40474f;
+		line-height: 32px;
+	}
+}
+
+.trp-about-section-1 {
+	background-color: #eefefe;
+	[class*="col-"] {
+		padding-left: 30px;
+	}
+	.trp-about-section-1-img {
+		padding-right: 40px;
+		padding-left: 0px;
+	}
+	img {
+		margin-top: 50px;
+		margin-bottom: 48px;
+	}
+}
+
+.trp-about-section-2 {
+	background-color: #fff;
+	img {
+		margin: 200px 0 140px 0;
+	}
+}
+
+.trp-about-hero {
+	padding: 123px 0 149px 0;
+}
+
+.trp-about-text {
+	margin-top: 25px;
+	display: block;
+}

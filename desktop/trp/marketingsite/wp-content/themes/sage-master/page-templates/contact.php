@@ -37,9 +37,18 @@
 				send us a message
 			</h4>
 			<form action="">
-				<input type="text" id="name" placeholder="name">
-				<input type="text" id="email" placeholder="email address">
-				<textarea name="message" id="" cols="30" rows="9"></textarea>
+				<div class="trp-contact-field-wrapper">
+					<i class="icon-user"></i>
+					<input type="text" id="name" placeholder="name">
+				</div>
+				<div class="trp-contact-field-wrapper">
+					<i class="glyphicon glyphicon-envelope"></i>
+					<input type="text" id="email" placeholder="email address">
+				</div>
+				<div class="trp-contact-field-wrapper">
+					<i class="glyphicon glyphicon-pencil"></i>
+					<textarea name="message" id="" cols="30" rows="9" placeholder="message"></textarea>
+				</div>
 				<input type="submit" value="Contact us now to learn more">
 			</form>
 		</div>

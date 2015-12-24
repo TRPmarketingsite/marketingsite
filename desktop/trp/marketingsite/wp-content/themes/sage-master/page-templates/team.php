@@ -104,21 +104,16 @@
 	</div>
 </div>
 
-<div class="trp-template-header trp-free-trial-container">
-	<div class="trp-template-header-content container">
+<div class="trp-use-today">
+	<div class="container text-center">
 		<h2>
-			Start a FREE 30 day trial today
+			Start Using The Right Place Today
 		</h2>
 		<span>
-			There's no contract and no obligation!
+			It’s time to make your life easier.
 		</span>
-		<div class="row">
-			<div class="trp-free-trial col-md-offset-2 col-md-8">
-				<input type="text" placeholder="email address">
-				<a href="#" class="trp-button">
-					Try it Today. <strong>FOR FREE.</strong>
-				</a>
-			</div>
-		</div>
+		<a href="#" class="trp-button">
+			Let’s Get Started
+		</a>
 	</div>
 </div>

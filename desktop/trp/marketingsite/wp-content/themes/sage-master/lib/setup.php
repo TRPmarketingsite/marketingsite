@@ -94,6 +94,7 @@ function display_sidebar() {
     is_page_template('page-templates/team.php'),
     is_page_template('page-templates/home.php'),
     is_page_template('page-templates/aco.php'),
+    is_page_template('page-templates/about.php'),
     is_page_template('page-templates/hospitals.php'),
       is_page_template('page-templates/skilled-nursing.php')
   ]);

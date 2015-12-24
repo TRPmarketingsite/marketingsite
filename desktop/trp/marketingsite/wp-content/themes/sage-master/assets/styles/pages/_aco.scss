@@ -2,21 +2,31 @@
 	position: relative;
 	overflow: hidden;
 	.trp-aco-hero-img {
+		@media (min-width: 2000px) {
+			width: 100%;
+		}
+	}
+	.trp-aco-hero-img {
 		top: -9999px;
 		bottom: -9999px;
 		left: -9999px;
 		right: -9999px;
 		margin: auto;
 		position: absolute;
+		@media (min-width: 2000px) {
+			top: 0!important;
+			bottom: 0!important;
+			margin: 0 auto 0 auto!important;
+		}
 	}
 	h1 {
 		font-size: 70px;
 		color: #fff;
-		margin-top: 50px;
-		margin-bottom: 30px;
+		margin-top: 29px;
+		margin-bottom: 25px;
 	}
 	p {
-		font-size: 20px;
+		font-size: 23px;
 		color: #fff;
 		line-height: 32px;
 	}
