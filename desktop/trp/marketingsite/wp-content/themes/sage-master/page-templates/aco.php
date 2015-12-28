@@ -35,19 +35,15 @@
 				<ul>
 					<li>
 						<i class="icon-check-square-o"></i>
+						Look at availability and patient mix amongst all network SNFs
+					</li>
+					<li>
+						<i class="icon-check-square-o"></i>
 						Track patients through auto-generated real time alerts and ACO patient dashboard
 					</li>
 					<li>
 						<i class="icon-check-square-o"></i>
-						Help eliminate network leakage before hospital discharge occurs to SNF
-					</li>
-					<li>
-						<i class="icon-check-square-o"></i>
-						Help shorten length of stay at SNFs
-					</li>
-					<li>
-						<i class="icon-check-square-o"></i>
-						Ability to review patient trends and SNF performance
+						Track patients through auto-generated real time alerts and ACO patient dashboard
 					</li>
 				</ul>
 			</div>
@@ -70,16 +66,20 @@
 					The Right Place Case Messenger App for iPhone 
 				</p>
 				<h2>
-					Need content 
+					Seamless communication resulting in better outcomes
 				</h2>
 				<ul>
 					<li>
 						<i class="icon-check-square-o"></i>
-						Need content 
+						Help eliminate network leakage before hospital discharge to SNF
 					</li>
 					<li>
 						<i class="icon-check-square-o"></i>
-						Need content 
+						Help shorten length of stay at SNFs 
+					</li>
+					<li>
+						<i class="icon-check-square-o"></i>
+						View cases in real-time with colleagues
 					</li>
 				</ul>
 			</div>
