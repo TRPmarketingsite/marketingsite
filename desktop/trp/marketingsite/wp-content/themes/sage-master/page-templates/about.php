@@ -29,7 +29,7 @@
 					A brief history
 				</h2>
 				<span class="trp-about-text">
-					Dr. Alan Abrams and Katherine Chambers began developing The Right Place in 2013 after Dr. Abrams recognized a particular pain point in how patients are transferred from hospitals to SNFs. Particularly, the discharge process, which took too long to get the patient to an available bed. With over 30 years of experience in geriatric medicine, Dr. Abrams has managed patient care in multiple settings from hospitals to nursing homes and home health services. Katherine comes to the partnership with a wealth of knowledge in developing online products from her time at HomeAway, Inc. and Starwood Hotels where she led first-mover initiatives in the travel space with the emergence of online travel agencies in the late 1990s.
+					Dr. Alan Abrams and Katherine Chambers developed The Right Place beginning in 2013 after Dr. Abrams recognized a particular pain point in the process of how patients are discharged from hospitals to skilled nursing facilities (SNFs) which often takes too long. With over 30 years of experience in geriatric medicine, Dr. Abrams has managed patient care in and around multiple settings from hospitals to nursing homes and home health services. Katherine comes to the partnership with a wealth of knowledge in developing online products from her time at HomeAway, Inc., and Starwood Hotels.
 				</span>
 			</div>
 		</div>
@@ -44,10 +44,10 @@
 					There must be a better way
 				</h2>
 				<span class="trp-about-text">
-					After hours of phone calls, faxes, forms and voicemails, patient placement is still beholden to a clunky process. 
+					After hours of phone calls, faxes and voicemails, patient placement is still beholden to a clunky process, and approximately 24% of patients end up back in the hospital just to start that process all over again. The Right Place can help solve this issue by getting patients out of hospitals quicker, filling empty beds at skilled nursing facilities with the right patient mix, lowering readmissions rates to hospitals, and engaging patients in decision making of their post-acute care options.
 					<br>
 					<br>
-					After all that time, over 24% of patients end up back in the hospital just to start that process over again. What if patients are not being placed in the right facility when they are discharged from a hospital and we could help shift that . . . while getting patients out of hospitals quicker, filling empty beds at skilled nursing facilities (SNFs) with the right patient mix, lowering readmissions rates to hospitals, and engaging patients in decision making of their post-acute care options?
+					At The Right Place, our first goal is to empower service providers to speed up this patient placement process, while creating better value, transparency and outcomes for all.
 				</span>
 			</div>
 			<div class="col-md-6">
