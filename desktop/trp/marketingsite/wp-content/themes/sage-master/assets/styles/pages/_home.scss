@@ -164,7 +164,7 @@
 		color: #40474f;
 	}
 	.trp-testimonial-title {
-		font-size: 48px;
+		font-size: 32px;
 		font-family: ProximaNovaLight;
 		margin-bottom: 25px;
 	}
@@ -194,6 +194,10 @@
 		float: none;
 		display: table-cell;
 		vertical-align: middle;
+		@media (max-width: $screen-md-min) {
+			display: inline-block;
+		}
+
 	}
 	img {
 		margin-top: 64px;
