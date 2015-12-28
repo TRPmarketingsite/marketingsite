@@ -119,27 +119,15 @@
 				<ul>
 					<li>
 						<i class="icon-check-square-o"></i>
-						Occupancy
+						Our built-in analytics helps you run your business more efficiently
 					</li>
 					<li>
 						<i class="icon-check-square-o"></i>
-						Referal volume
+						Learn from the data trends including occupancy, referral volume, current mix of payer source, average length of stay, gender mix,
 					</li>
 					<li>
 						<i class="icon-check-square-o"></i>
-						Current mix of payer source
-					</li>
-					<li>
-						<i class="icon-check-square-o"></i>
-						Average length of stay
-					</li>
-					<li>
-						<i class="icon-check-square-o"></i>
-						Gender mix
-					</li>
-					<li>
-						<i class="icon-check-square-o"></i>
-						Case mix by clinical attribute 
+						Access to data whenever you need it. Smart. Simple. Powerful.
 					</li>
 				</ul>
 			</div>
