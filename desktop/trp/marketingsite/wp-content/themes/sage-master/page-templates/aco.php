@@ -12,7 +12,7 @@
 					Accountable Care Organizations
 				</h1>
 				<p>
-					Free your team from endless phone tag, emails, attachments, spreadsheets and sifting through 40 page faxes. The Right Place is a single, secure, cloud-based solution specifically designed to help you fill beds with patients you can serve best, at a pace that's friendly to your bottom line.
+					The Right Place centralizes communication between hospitals, SNFs and ACO management to better facilitate patient transitions
 				</p>
 				<a href="#" class="trp-button pull-left">
 					Let’s Get Started
