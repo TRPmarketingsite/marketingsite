@@ -12,7 +12,7 @@
 					Hospitals
 				</h1>
 				<p>
-					Hospital Case Managers can quickly search and identify available SNFs by capabilities and needs of the patient. No more spending hours on the phone, sending large faxes and endless emails trying to find an available bed for your patients. The Right Place empowers case managers to search, filter and identify facilities for each patient and send actionable referrals to SNFs instantly.
+					No more spending hours on the phone, sending large faxes and endless emails trying to find an available bed for your patients. The Right Place empowers case managers to search, filter and identify facilities for each patient and send actionable referrals to SNFs instantly
 				</p>
 			</div>
 		</div>
