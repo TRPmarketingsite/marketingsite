@@ -1,5 +1,5 @@
 <?php
-	/* Template Name: Newsroom */
+/* Template Name: Newsroom */
 
 $newsroomPosts = get_posts( array('posts_per_page' => 5) );
 $latestNewsroomPosts = get_posts( array('posts_per_page' => 2, 'orderby' => 'date', 'order'=> 'DESC') );
