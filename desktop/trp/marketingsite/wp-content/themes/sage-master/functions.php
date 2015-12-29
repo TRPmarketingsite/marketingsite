@@ -27,3 +27,16 @@ foreach ($sage_includes as $file) {
   require_once $filepath;
 }
 unset($file, $filepath);
+
+/**
+ * Update read more link after the excerpt
+ */
+function trp_custom_excerpt_more($more) {
+  return '<p class="trp-keep-reading"> <a href="' . get_permalink() . '">  Click here to keep reading</a></p>';
+}
+add_filter('excerpt_more', 'trp_custom_excerpt_more');
+
+function trp_custom_excerpt_length($length) {
+  return 20; 
+}
+add_filter('excerpt_length', 'trp_custom_excerpt_length');

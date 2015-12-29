@@ -1,0 +1,48 @@
+.type-post {
+	margin: 35px 0 50px 0;
+	.row {
+		background-color: #fff;
+	}
+	img {
+		width: 100%;
+		-moz-border-radius: 100%;
+		-webkit-border-radius: 100%;
+		border-radius: 100%;
+		max-width: 191px;
+		//margin: 0 auto;
+		//display: block;
+	}
+	.entry-title {
+		a {
+			color: #53c1c0;
+			font-family: ProximaNovaBold;
+			font-size: 20px;
+			text-transform: uppercase;
+			&:hover,
+			&:active,
+			&:focus {
+				text-decoration: none;
+			}
+		}
+	}
+	.entry-summary {
+		p {
+			font-size: 30px;
+			line-height: 30px;
+			color: #40474f;
+			font-family: ProximaNovaLight;
+		}
+	}
+	.trp-keep-reading {
+		a {
+		color: #e94d6e;
+		font-family: ProximaNovaRegular;
+		font-size: 20px;
+		&:hover,
+			&:active,
+			&:focus {
+				text-decoration: none;
+			}
+	}
+	}
+}
