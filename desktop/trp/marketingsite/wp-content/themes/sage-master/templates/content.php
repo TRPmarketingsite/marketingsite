@@ -5,12 +5,14 @@
 		</div>
 		<div class="col-sm-7">
 			<header>
-				<h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-				<?php get_template_part('templates/entry-meta'); ?>
+				<h2 class="entry-title"><?php get_template_part('templates/entry-meta'); ?></h2>
 			</header>
 			<div class="entry-summary">
-				<?php the_excerpt(); ?>
+				<p>
+					<?php the_title(); ?>
+				</p>
 			</div>
+			<p class="trp-keep-reading"> <a href="<?= get_post_permalink($post->ID) ?>">Click here to keep reading</a></p>
 			<hr>
 		</div>
 	</div>
