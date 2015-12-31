@@ -44,15 +44,17 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
-				<h2>
-					There must be a better way
-				</h2>
-				<span class="trp-about-text">
-					After hours of phone calls, faxes and voicemails, patient placement is still beholden to a clunky process, and approximately 24% of patients end up back in the hospital just to start that process all over again. The Right Place can help solve this issue by getting patients out of hospitals quicker, filling empty beds at skilled nursing facilities with the right patient mix, lowering readmissions rates to hospitals, and engaging patients in decision making of their post-acute care options.
-					<br>
-					<br>
-					At The Right Place, our first goal is to empower service providers to speed up this patient placement process, while creating better value, transparency and outcomes for all.
-				</span>
+				<div class="trp-about-section-2-text">
+					<h2>
+						There must be a better way
+					</h2>
+					<span class="trp-about-text">
+						After hours of phone calls, faxes and voicemails, patient placement is still beholden to a clunky process, and approximately 24% of patients end up back in the hospital just to start that process all over again. The Right Place can help solve this issue by getting patients out of hospitals quicker, filling empty beds at skilled nursing facilities with the right patient mix, lowering readmissions rates to hospitals, and engaging patients in decision making of their post-acute care options.
+						<br>
+						<br>
+						At The Right Place, our first goal is to empower service providers to speed up this patient placement process, while creating better value, transparency and outcomes for all.
+					</span>
+				</div>
 			</div>
 			<div class="col-md-6">
 				<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/about-section-2.png" alt="">

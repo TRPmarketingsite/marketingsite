@@ -15,6 +15,9 @@
 	.trp-about-section-text {
 		margin-top: 50px;
 		margin-bottom: 48px;
+		@media (max-width: $screen-md-min) {
+			margin-top: 0;
+		}
 	}
 	.trp-about-section-1-img {
 		padding-right: 40px;
@@ -30,10 +33,20 @@
 	background-color: #fff;
 	img {
 		margin: 200px 0 140px 0;
+		@media (max-width: $screen-md-min) {
+			margin: 50px 0 40px 0;
+		}
 	}
 }
 
 .trp-about-text {
 	margin-top: 25px;
 	display: block;
+}
+
+.trp-about-section-2-text {
+	margin: 120px 0;
+	@media (max-width: $screen-md-min) {
+		margin: 50px 0;
+	}
 }
