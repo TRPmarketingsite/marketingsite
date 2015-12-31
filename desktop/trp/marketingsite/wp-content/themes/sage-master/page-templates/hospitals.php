@@ -25,34 +25,36 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-5">
-				<p>
-					The Right Place for Hospitals
-				</p>
-				<h2>
-					More SNF options and faster responses leads to more efficiency and better patient outcomes
-				</h2>
-				<ul>
-					<li>
-						<i class="icon-check-square-o"></i>
-						Instantly communicate with SNFs using one simple tool
-					</li>
-					<li>
-						<i class="icon-check-square-o"></i>
-						Search across multiple facilities
-					</li>
-					<li>
-						<i class="icon-check-square-o"></i>
-						Communicate concurrently with various SNFs
-					</li>
-					<li>
-						<i class="icon-check-square-o"></i>
-						Receive real-time information on bed availability
-					</li>
-					<li>
-						<i class="icon-check-square-o"></i>
-						Measure SNF capability history and analytics
-					</li>
-				</ul>
+				<div class="trp-hospitals-section-1">
+					<p>
+						The Right Place for Hospitals
+					</p>
+					<h2>
+						More SNF options and faster responses leads to more efficiency and better patient outcomes
+					</h2>
+					<ul>
+						<li>
+							<i class="icon-check-square-o"></i>
+							Instantly communicate with SNFs using one simple tool
+						</li>
+						<li>
+							<i class="icon-check-square-o"></i>
+							Search across multiple facilities
+						</li>
+						<li>
+							<i class="icon-check-square-o"></i>
+							Communicate concurrently with various SNFs
+						</li>
+						<li>
+							<i class="icon-check-square-o"></i>
+							Receive real-time information on bed availability
+						</li>
+						<li>
+							<i class="icon-check-square-o"></i>
+							Measure SNF capability history and analytics
+						</li>
+					</ul>
+				</div>
 			</div>
 			<div class="col-md-7">
 				<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/hospital-1.png" alt="">
@@ -64,7 +66,7 @@
 <div class="trp-mobile-app trp-aco-section">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-md-4 col-xs-12">
 				<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/hospital-2.png" alt="" class="trp-hospitals-section-2-img">
 			</div>
 			<div class="col-md-1"></div>

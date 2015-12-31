@@ -1,5 +1,10 @@
 .trp-hospitals-section-2-img {
 	margin: 125px 0!important;
+	@media (max-width: $screen-md-min) {
+		margin: 50px auto!important;
+		max-width: 386px;
+		display: block;
+	}
 }
 
 .trp-hospitals-logo {
@@ -9,4 +14,8 @@
 			margin-bottom: 200px;
 		}
 	}
+}
+
+.trp-hospitals-section-1 {
+	margin: 50px 0;
 }
