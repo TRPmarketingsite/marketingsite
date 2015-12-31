@@ -3,8 +3,7 @@
 .page-template-page-templateshome-php {
 	header {
 		background-color: #f5fefe;
-    	border: none;
-    	height: 130px;
+		height: 150px;
 	}
 	.trp-home-masthead {
 		background-color: #f5fefe;
@@ -61,28 +60,28 @@
 }
 
 .trp-features {
-    position: relative;
-    margin-bottom: 66px;
-    margin-top: 110px;
-    h2 {
+	position: relative;
+	margin-bottom: 66px;
+	margin-top: 110px;
+	h2 {
 		font-size: 50px;
 		font-family: ProximaNovaLight;
 		color: #40474f;
 		line-height: 56px;
 		margin-bottom: 40px;
-    }
-    p {
-    	font-size: 20px;
-    	color: #40474f;
+	}
+	p {
+		font-size: 20px;
+		color: #40474f;
 		font-family: ProximaNovaLight;
 		line-height: 30px;
 		strong {
 			font-family: ProximaNovaBold;
 		}
-    }
-    .row {
-    	margin-top: 70px;
-    }
+	}
+	.row {
+		margin-top: 70px;
+	}
 	.trp-feature {
 		position: absolute;
 		top: 0;
@@ -134,14 +133,15 @@
 	color: #fff;
 	padding-top: 90px;
 	padding-bottom: 124px;
+	h2, span {
+		font-family: ProximaNovaLight;
+	}
 	h2 {
 		font-size: 50px;
-		font-family: ProximaNovaRegular;
 	}
 	span {
 		display: block;
 		font-size: 20px;
-		font-family: ProximaNovaRegular;
 	}
 	a {
 		float: none;

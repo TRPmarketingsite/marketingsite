@@ -20,18 +20,21 @@
 
 .navbar {
 	margin-bottom: 0;
-    height: 150px;
-    & > .container {
-    	margin-top: 47px;
-    }
+	height: 150px;
+	& > .container {
+		margin-top: 47px;
+	}
 }
 
 .navbar-default {
 	background-color: #fff;
 	text-transform: uppercase;
+	border-top: 12px solid #63c4c3;
+	border-bottom: none;
 	a {
 		font-family: ProximaNovaRegular;
 		font-size: 18px;
+		color: #89929b!important;
 		&:hover,
 		&:active,
 		&:focus {
