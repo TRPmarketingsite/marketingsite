@@ -12,7 +12,7 @@
 			</div>
 			<div class="col-md-6">
 				<a href="#" class="trp-button">
-					Try it Today. <strong>FOR FREE.</strong>
+					Let’s Get Started
 				</a>
 			</div>
 		</div>

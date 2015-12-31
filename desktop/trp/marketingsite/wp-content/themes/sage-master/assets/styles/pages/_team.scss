@@ -3,18 +3,26 @@
 		margin-top: 110px;
 		font-size: 20px;
 		color: #40474f;
+		line-height: 32px;
 	}
 	h2 {
 		margin-top: 100px;
 		margin-bottom: 80px;
+		font-family: ProximaNovaLight;
+		font-size: 50px;
+		color: #40474f;
 	}
 }
 
 .trp-team-nav {
+	height: 70px;
+	background-color: #40474f;
+	padding-top: 25px;
 	a {
 		font-size: 18px;
 		color: #fff;
 		padding-right: 30px;
+		font-family: ProximaNovaRegular;
 	}
 }
 
@@ -56,19 +64,14 @@
 		font-size: 25px;
 		color: #53c1c0;
 		margin-top: 30px;
-		font-weight: bold;
+		font-family: ProximaNovaBold;
 	}
 	span {
 		font-size: 20px;
 		color: #89929b;
+		font-family: ProximaNovaLight; 
 		font-style: italic;
 	}
-}
-
-.trp-team-nav {
-	height: 70px;
-	background-color: #40474f;
-	padding-top: 25px;
 }
 
 .trp-advisors {
@@ -78,16 +81,18 @@
 		font-size: 50px;
 		color: #40474f;
 		margin-top: 140px;
+		font-family: ProximaNovaLight;
 	}
 	h4 {
 		font-size: 25px;
-		font-weight: bold;
+		font-family: ProximaNovaBold;
 		color: #53c1c0;
 		margin-bottom: 40px;
 		margin-top: 100px;
 	}
-	span {
+	span p {
 		font-size: 20px;
+		font-family: ProximaNovaLight;
 		color: #89929b;
 		font-style: italic;
 	}
