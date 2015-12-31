@@ -2,18 +2,20 @@
 	/* Template Name: Hospitals */
 ?>
 
-<div class="trp-aco-hero">
+<div class="trp-aco-hero trp-hero-products">
 	<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/hospitals-hero.jpg" alt="" class="trp-aco-hero-img">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-11 text-left">
-				<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/hospitals-logo.png" alt="" class="trp-aco-icon trp-hospitals-logo">
-				<h1>
-					Hospitals
-				</h1>
-				<p>
-					No more spending hours on the phone, sending large faxes and endless emails trying to find an available bed for your patients. The Right Place empowers case managers to search, filter and identify facilities for each patient and send actionable referrals to SNFs instantly
-				</p>
+				<div class="trp-aco-hero-align trp-hero-hospitals">
+					<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/hospitals-logo.png" alt="" class="trp-aco-icon trp-hospitals-logo">
+					<h1>
+						Hospitals
+					</h1>
+					<p>
+						No more spending hours on the phone, sending large faxes and endless emails trying to find an available bed for your patients. The Right Place empowers case managers to search, filter and identify facilities for each patient and send actionable referrals to SNFs instantly
+					</p>
+				</div>
 			</div>
 		</div>
 	</div>

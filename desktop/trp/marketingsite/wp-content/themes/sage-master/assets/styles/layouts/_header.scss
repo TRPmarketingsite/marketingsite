@@ -53,6 +53,13 @@
 	}
 }
 
+.trp-hero-products {
+	max-height: 660px;
+	.trp-aco-hero-align {
+		padding: 80px 0;
+	}
+}
+
 // Update mobile navigation breakpoint
 @media (max-width: $screen-lg-min) {
 	.navbar-header {

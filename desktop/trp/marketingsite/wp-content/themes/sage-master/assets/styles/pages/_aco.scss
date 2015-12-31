@@ -6,6 +6,22 @@
 			width: 100%;
 		}
 	}
+	.trp-aco-hero-align {
+		padding: 120px 0;
+		max-height: 477px;
+		@media (max-width: $screen-md-min) {
+			padding: 100px 0;
+		}
+		@media (max-width: $screen-sm-min) {
+			padding: 80px 0;
+		}
+		@media (max-width: $screen-xs-min) {
+			padding: 50px 0;
+		}
+	}
+	.trp-hero-hospitals {
+		padding: 80px 0;
+	}
 	.trp-aco-hero-img {
 		top: -9999px;
 		bottom: -9999px;
@@ -33,9 +49,6 @@
 	}
 	a {
 		margin-bottom: 120px;
-	}
-	.trp-aco-icon {
-		margin-top: 90px;
 	}
 }
 

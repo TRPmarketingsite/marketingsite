@@ -2,28 +2,30 @@
 /* Template Name: Skilled Nursing */
 ?>
 <section class="skilled-nursing">
-	<div class="trp-aco-hero">
+	<div class="trp-aco-hero trp-hero-products">
 		<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/skilled-bg.jpg" alt="" class="trp-aco-hero-img">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-11 text-left">
-					<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/nursing-logo.png" alt="" class="trp-aco-icon">
-					<h1>
-						Skilled Nursing Facilities
-					</h1>
-					<p>
-						The Right Place will allow you to easily manage your facility and make
-						Better, Faster referral decisions and track real-time data.
-					</p>
-					<a href="#" class="trp-button pull-left">
-						Start Using the App
-					</a>
+					<div class="trp-aco-hero-align">
+						<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/nursing-logo.png" alt="" class="trp-aco-icon">
+						<h1>
+							Skilled Nursing Facilities
+						</h1>
+						<p>
+							The Right Place will allow you to easily manage your facility and make
+							Better, Faster referral decisions and track real-time data.
+						</p>
+						<a href="#" class="trp-button pull-left">
+							Start Using the App
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="trp-mobile-app-analytics trp-aco-section">
+	<div class="trp-mobile-app-analytics trp-aco-section trp-snf-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-5 left-content col-xs-12">

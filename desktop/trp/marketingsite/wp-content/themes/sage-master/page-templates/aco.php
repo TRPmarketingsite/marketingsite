@@ -2,21 +2,23 @@
 	/* Template Name: ACO */
 ?>
 
-<div class="trp-aco-hero">
+<div class="trp-aco-hero trp-hero-products">
 	<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/aco-hero.jpg" alt="" class="trp-aco-hero-img">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-11 text-left">
-				<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/aco.png" alt="" class="trp-aco-icon">
-				<h1>
-					Accountable Care Organizations
-				</h1>
-				<p>
-					The Right Place centralizes communication between hospitals, SNFs and ACO management to better facilitate patient transitions
-				</p>
-				<a href="#" class="trp-button pull-left">
-					Let’s Get Started
-				</a>
+				<div class="trp-aco-hero-align">
+					<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/aco.png" alt="" class="trp-aco-icon">
+					<h1>
+						Accountable Care Organizations
+					</h1>
+					<p>
+						The Right Place centralizes communication between hospitals, SNFs and ACO management to better facilitate patient transitions
+					</p>
+					<a href="#" class="trp-button pull-left">
+						Let’s Get Started
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>
