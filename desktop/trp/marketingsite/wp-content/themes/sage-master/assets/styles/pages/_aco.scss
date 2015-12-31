@@ -63,3 +63,25 @@
 		font-size: 40px;
 	}
 }
+
+.trp-aco-section-text {
+	margin: 50px 0;
+	margin: 50px 0;
+}
+
+.trp-aco-section-2-img {
+	img {
+		@media (max-width: $screen-lg-min) {
+			max-width: 300px;
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+		}
+	}
+}
+
+.trp-aco-section-2 {
+	@media (max-width: $screen-md-min) {
+		padding: 50px 0 0 0;
+	}
+}

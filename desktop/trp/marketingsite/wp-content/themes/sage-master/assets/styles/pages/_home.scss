@@ -229,5 +229,8 @@
 	background-color: #fff;
 	img {
 		margin: 125px 0;
+		@media (max-width: $screen-md-min) {
+			margin: 50px 0;
+		}
 	}
 }

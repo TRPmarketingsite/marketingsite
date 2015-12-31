@@ -28,26 +28,28 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-5">
-				<p>
-					Right Place BedBoard App for iPad
-				</p>
-				<h2>
-					It’s your Bed Board, we just made it easier to use
-				</h2>
-				<ul>
-					<li>
-						<i class="icon-check-square-o"></i>
-						Look at availability and patient mix amongst all network SNFs
-					</li>
-					<li>
-						<i class="icon-check-square-o"></i>
-						Track patients through auto-generated real time alerts and ACO patient dashboard
-					</li>
-					<li>
-						<i class="icon-check-square-o"></i>
-						Track patients through auto-generated real time alerts and ACO patient dashboard
-					</li>
-				</ul>
+				<div class="trp-aco-section-text">
+					<p>
+						Right Place BedBoard App for iPad
+					</p>
+					<h2>
+						It’s your Bed Board, we just made it easier to use
+					</h2>
+					<ul>
+						<li>
+							<i class="icon-check-square-o"></i>
+							Look at availability and patient mix amongst all network SNFs
+						</li>
+						<li>
+							<i class="icon-check-square-o"></i>
+							Track patients through auto-generated real time alerts and ACO patient dashboard
+						</li>
+						<li>
+							<i class="icon-check-square-o"></i>
+							Track patients through auto-generated real time alerts and ACO patient dashboard
+						</li>
+					</ul>
+				</div>
 			</div>
 			<div class="col-md-7">
 				<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/analytics.png" alt="">
@@ -56,14 +58,11 @@
 	</div>
 </div>
 
-<div class="trp-mobile-app trp-aco-section">
+<div class="trp-mobile-app trp-aco-section trp-aco-section-2">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4">
-				<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/mobile-app.png" alt="">
-			</div>
-			<div class="col-md-1"></div>
-			<div class="col-md-7">
+			<div class="col-md-1 col-md-push-4 col-xs-12"></div>
+			<div class="col-md-7 col-md-push-4 col-xs-12">
 				<p class="trp-aco-label">
 					The Right Place Case Messenger App for iPhone 
 				</p>
@@ -84,6 +83,9 @@
 						View cases in real-time with colleagues
 					</li>
 				</ul>
+			</div>
+			<div class="col-md-4 col-md-pull-8 col-xs-12 trp-aco-section-2-img">
+				<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/mobile-app.png" alt="">
 			</div>
 		</div>
 	</div>
