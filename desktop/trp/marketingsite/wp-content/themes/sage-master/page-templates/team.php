@@ -35,7 +35,7 @@
 			Team
 		</h2>
 
-		<div id="members">
+		<div id="members" class="row">
 			<?php
 			$team_members = new WP_Query(
 								array(	'post_type' => 'team_member',
@@ -89,7 +89,7 @@
 							);
 			while ($team_members->have_posts()) : $team_members->the_post();
 			?>
-			<div class="col-md-4 col-sm-6 trp-advisor">
+			<div class="col-lg-4 col-sm-6 trp-advisor">
 				<h4>
 					<? the_title(); ?>
 				</h4>

@@ -12,6 +12,7 @@
 		font-size: 50px;
 		color: #40474f;
 	}
+
 }
 
 .trp-team-nav {
@@ -29,6 +30,10 @@
 .trp-team-member {
 	text-align: center;
 	margin-bottom: 60px;
+	min-height: 462px;
+	@media (max-width: $screen-sm-min) {
+		min-height: initial;
+	}
 	a {
 		.trp-member-overlay {
 			display: none;
@@ -55,7 +60,6 @@
 	img {
 		width: 100%;
 		max-width: 340px;
-		height: 340px;
 		-moz-border-radius: 100%;
 		-webkit-border-radius: 100%;
 		border-radius: 100%;
@@ -77,11 +81,17 @@
 .trp-advisors {
 	background-color: #eefefe;
 	padding-bottom: 200px;
+	@media (max-width: $screen-sm-min) {
+		padding-bottom: 100px;
+	}
 	h2 {
 		font-size: 50px;
 		color: #40474f;
 		margin-top: 140px;
 		font-family: ProximaNovaLight;
+		@media (max-width: $screen-sm-min) {
+			margin-top: 70px;
+		}
 	}
 	h4 {
 		font-size: 25px;
@@ -98,6 +108,12 @@
 	}
 	.trp-advisor {
 		min-height: 330px;
+		@media (max-width: $screen-lg-min) {
+			min-height: 300px;
+		}
+		@media (max-width: $screen-sm-min) {
+			min-height: 155px;
+		}
 	}
 }
 
