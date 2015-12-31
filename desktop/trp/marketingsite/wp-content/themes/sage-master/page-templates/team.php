@@ -51,11 +51,13 @@
 			?>
 			<div class="col-md-4 col-sm-6 trp-team-member">
 				<a href="<? the_permalink() ?>">
-					<div class="trp-member-overlay">
-						<p>View profile</p>
-						<p>></p>
+					<div class="trp-member-overlay-container">
+						<div class="trp-member-overlay">
+							<p>View profile</p>
+							<p>></p>
+						</div>
+						<img src="<?= $member_pic ?>" alt="<? the_title(); ?>">
 					</div>
-					<img src="<?= $member_pic ?>" alt="<? the_title(); ?>">
 				</a>
 				<h4>
 					<? the_title(); ?>
