@@ -11,6 +11,10 @@
 	float: right;
 	font-size: 24px;
 	font-family: ProximaNovaRegular;
+	@media (max-width: $screen-md-min) {
+		font-size: 18px;
+		padding: 10px 30px;
+	}
 	&:hover,
 	&:active,
 	&:focus {

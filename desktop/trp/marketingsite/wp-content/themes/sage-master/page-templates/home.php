@@ -3,10 +3,13 @@
 ?>
 
 <div class="trp-home-masthead">
-	<div class="trp-home-masthead-bottom"></div>
+	<div class="trp-hero-overlay"></div>
+	<video id="trp-video" muted autoplay loop poster="<?= get_stylesheet_directory_uri() ?>/assets/images/video-poster.jpg">
+		<source src="<?= get_stylesheet_directory_uri() ?>/assets/images/trp-video.mp4">
+	</video>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-md-10 col-md-offset-2 col-sm-12 col-sm-offset-0 trp-home-masthead-text">
 				<h1>
 					Find the right bed for your patient. <strong>The Right Place.</strong>
 					<a href="#" class="trp-button">
@@ -14,25 +17,45 @@
 					</a>
 				</h1>
 			</div>
-			<div class="col-md-offset-1 col-md-7">
-				<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/hero.png" alt="">
-			</div>
 		</div>
 	</div>
 </div>
 
+<div class="trp-home-intro">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5">
+				<div class="trp-intro-text">
+					<h2>
+						40% of patients discharged from the hospital require post-acute care
+					</h2>
+					<p>
+						 Introducing <strong>The Right Place</strong>: a communication solution that empowers hospitals and post-acute providers to match the right patient in the right place of care quickly and efficiently.
+					</p>
+				</div>
+			</div>
+			<div class="col-md-7">
+				<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/hero.png" alt="">
+			</div>
+		</div>
+	</div>
+	<hr class="trp-home-intro-separator">
+</div>
+
 <div class="trp-features container text-center">
-	<h2>
-		40% of patients discharged from the hospital require post-acute care
-	</h2>
-	<p>
-		 Introducing <strong>The Right Place</strong>: a communication solution that empowers hospitals and post-acute providers to match the right patient in the right place of care quickly and efficiently.
-	</p>
-	<div class="row">
-		<div class="col-sm-4 col-xs-12 trp-features-hospitals">
+		<h2>
+			The Right Place for your facility
+		</h2>
+		<div class="row">
+			<p class="trp-features-p col-md-4 col-md-offset-4">
+				We built custom applications for each type of facility and their specific needs.
+			</p>
+		</div>
+		<div class="row">
+		<div class="col-md-4 col-xs-12 trp-features-hospitals">
 			<div class="trp-feature-helper"></div>
 			<div class="trp-feature">
-				<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/1.jpg" alt="">
+				<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/hospitals-logo.png" alt="">
 				<h4>
 					HOSPITALS
 				</h4>
@@ -44,10 +67,10 @@
 				</a>
 			</div>
 		</div>
-		<div class="col-sm-4 col-xs-12 trp-features-facilities">
+		<div class="col-md-4 col-xs-12 trp-features-facilities">
 			<div class="trp-feature-helper"></div>
 			<div class="trp-feature">
-				<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/2.jpg" alt="">
+				<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/nursing-logo.png" alt="">
 				<h4>
 					SKILLED NURSING FACILITIES
 				</h4>
@@ -59,10 +82,10 @@
 				</a>
 			</div>
 		</div>
-		<div class="col-sm-4 col-xs-12 trp-features-orgs">
+		<div class="col-md-4 col-xs-12 trp-features-orgs">
 			<div class="trp-feature-helper"></div>
 			<div class="trp-feature">
-				<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/3.jpg" alt="">
+				<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/aco.png" alt="">
 				<h4>
 					Accountable Care Orgs
 				</h4>
@@ -99,7 +122,7 @@
 					</li>
 				</ul>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 col-xs-12 trp-aco-section-2-img">
 				<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/mobile-app.png" alt="">
 			</div>
 		</div>
