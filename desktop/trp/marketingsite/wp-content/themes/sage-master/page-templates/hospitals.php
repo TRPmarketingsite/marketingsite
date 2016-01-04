@@ -13,7 +13,7 @@
 						Hospitals
 					</h1>
 					<p>
-						No more spending hours on the phone, sending large faxes and endless emails trying to find an available bed for your patients. The Right Place empowers case managers to search, filter and identify facilities for each patient and send actionable referrals to SNFs instantly
+						The Right Place empowers case managers to search, filter and identify facilities for each patient using one simple tool.
 					</p>
 				</div>
 			</div>
@@ -30,20 +30,20 @@
 						The Right Place for Hospitals
 					</p>
 					<h2>
-						More SNF options and faster responses leads to more efficiency and better patient outcomes
+						Match the right patient to the right bed
 					</h2>
 					<ul>
 						<li>
 							<i class="icon-check-square-o"></i>
-							Instantly communicate with SNFs using one simple tool
+							No more spending hours on the phone, faxing and emailing
+						</li>
+						<li>
+							<i class="icon-check-square-o"></i>
+							Instantly communicate with SNFs
 						</li>
 						<li>
 							<i class="icon-check-square-o"></i>
 							Search across multiple facilities
-						</li>
-						<li>
-							<i class="icon-check-square-o"></i>
-							Communicate concurrently with various SNFs
 						</li>
 						<li>
 							<i class="icon-check-square-o"></i>
