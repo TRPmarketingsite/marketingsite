@@ -29,11 +29,8 @@
 		<div class="row">
 			<div class="col-md-5">
 				<div class="trp-aco-section-text">
-					<p>
-						Right Place BedBoard App for iPad
-					</p>
 					<h2>
-						It’s your Bed Board, we just made it easier to use
+						Real-time data tracking
 					</h2>
 					<ul>
 						<li>
@@ -46,7 +43,7 @@
 						</li>
 						<li>
 							<i class="icon-check-square-o"></i>
-							Track patients through auto-generated real time alerts and ACO patient dashboard
+							Measure performance on quality and outcomes of in-network and out-of-network SNFs 
 						</li>
 					</ul>
 				</div>
@@ -63,9 +60,6 @@
 		<div class="row">
 			<div class="col-md-1 col-md-push-4 col-xs-12"></div>
 			<div class="col-md-7 col-md-push-4 col-xs-12">
-				<p class="trp-aco-label">
-					The Right Place Case Messenger App for iPhone 
-				</p>
 				<h2>
 					Seamless communication resulting in better outcomes
 				</h2>
