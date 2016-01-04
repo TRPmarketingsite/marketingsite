@@ -110,15 +110,21 @@
 				<ul>
 					<li>
 						<i class="icon-check-square-o"></i>
-						HIPAA compliant security protocols
+						<span>
+							HIPAA compliant security protocols
+						</span>
 					</li>
 					<li>
 						<i class="icon-check-square-o"></i>
-						State-of-the-art 256 bit encryption
+						<span>
+							State-of-the-art 256 bit encryption
+						</span>
 					</li>
 					<li>
 						<i class="icon-check-square-o"></i>
-						SSL security
+						<span>
+							SSL security
+						</span>
 					</li>
 				</ul>
 			</div>
@@ -142,15 +148,21 @@
 				<ul>
 					<li>
 						<i class="icon-check-square-o"></i>
-						Our built-in analytics helps you run your business more efficiently
+						<span>
+							Our built-in analytics helps you run your business more efficiently
+						</span>
 					</li>
 					<li>
 						<i class="icon-check-square-o"></i>
-						Learn from the data trends including occupancy, referral volume, current mix of payer source, average length of stay, gender mix,
+						<span>
+							Learn from the data trends including occupancy, referral volume, current mix of payer source, average length of stay, gender mix,
+						</span>
 					</li>
 					<li>
 						<i class="icon-check-square-o"></i>
-						Access to data whenever you need it. Smart. Simple. Powerful.
+						<span>
+							Access to data whenever you need it. Smart. Simple. Powerful.
+						</span>
 					</li>
 				</ul>
 			</div>

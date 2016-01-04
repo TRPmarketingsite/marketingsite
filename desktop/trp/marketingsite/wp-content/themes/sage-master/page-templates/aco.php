@@ -35,15 +35,21 @@
 					<ul>
 						<li>
 							<i class="icon-check-square-o"></i>
-							Look at availability and patient mix amongst all network SNFs
+							<span>
+								Look at availability and patient mix amongst all network SNFs
+							</span>
 						</li>
 						<li>
 							<i class="icon-check-square-o"></i>
-							Track patients through auto-generated real time alerts and ACO patient dashboard
+							<span>
+								Track patients through auto-generated real time alerts and ACO patient dashboard
+							</span>
 						</li>
 						<li>
 							<i class="icon-check-square-o"></i>
-							Measure performance on quality and outcomes of in-network and out-of-network SNFs 
+							<span>
+								Measure performance on quality and outcomes of in-network and out-of-network SNFs 
+							</span>
 						</li>
 					</ul>
 				</div>
@@ -66,15 +72,21 @@
 				<ul>
 					<li>
 						<i class="icon-check-square-o"></i>
-						Help eliminate network leakage before hospital discharge to SNF
+						<span>
+							Help eliminate network leakage before hospital discharge to SNF
+						</span>
 					</li>
 					<li>
 						<i class="icon-check-square-o"></i>
-						Help shorten length of stay at SNFs 
+						<span>
+							Help shorten length of stay at SNFs 
+						</span>
 					</li>
 					<li>
 						<i class="icon-check-square-o"></i>
-						View cases in real-time with colleagues
+						<span>
+							View cases in real-time with colleagues
+						</span>
 					</li>
 				</ul>
 			</div>

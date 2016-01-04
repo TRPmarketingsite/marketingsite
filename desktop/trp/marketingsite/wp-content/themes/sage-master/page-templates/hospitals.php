@@ -35,23 +35,33 @@
 					<ul>
 						<li>
 							<i class="icon-check-square-o"></i>
-							No more spending hours on the phone, faxing and emailing
+							<span>
+								No more spending hours on the phone, faxing and emailing
+							</span>
 						</li>
 						<li>
 							<i class="icon-check-square-o"></i>
-							Instantly communicate with SNFs
+							<span>
+								Instantly communicate with SNFs
+							</span>
 						</li>
 						<li>
 							<i class="icon-check-square-o"></i>
-							Search across multiple facilities
+							<span>
+								Search across multiple facilities
+							</span>
 						</li>
 						<li>
 							<i class="icon-check-square-o"></i>
-							Receive real-time information on bed availability
+							<span>
+								Receive real-time information on bed availability
+							</span>
 						</li>
 						<li>
 							<i class="icon-check-square-o"></i>
-							Measure SNF capability history and analytics
+							<span>
+								Measure SNF capability history and analytics
+							</span>
 						</li>
 					</ul>
 				</div>

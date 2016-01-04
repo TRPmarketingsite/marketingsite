@@ -38,30 +38,39 @@
 					<ul>
 						<li>
 							<i class="icon-check-square-o"></i>
-							Entirely customized for your facility
+							<span>
+								Entirely customized for your facility
+							</span>
 						</li>
 						<li>
 							<i class="icon-check-square-o"></i>
-							Manage beds in a real-time, secure solution -
-							your beds, your rooms, your numbers
+							<span>
+								Manage beds in a real-time, secure solution - your beds, your rooms, your numbers
+							</span>
 						</li>
 						<li>
 							<i class="icon-check-square-o"></i>
-							Move about your facility with real-time access
-							anytime, anywhere
+							<span>
+								Move about your facility with real-time access anytime, anywhere
+							</span>
 						</li>
 						<li>
 							<i class="icon-check-square-o"></i>
-							Easily manage all your day-to-day tasks in minutes
+							<span>
+								Easily manage all your day-to-day tasks in minutes
+							</span>
 						</li>
 						<li>
 							<i class="icon-check-square-o"></i>
-							Instantly check Medicare eligibility on potential patients
+							<span>
+								Instanly check Medicare eligibility on potential patients
+							</span>
 						</li>
 						<li>
 							<i class="icon-check-square-o"></i>
-							No more faxing and emailing. Documents can be attached with the click of a button.
-
+							<span>
+								No more faxing and emailing. Documents can be attached with the click of a button.
+							</span>
 						</li>
 					</ul>
 				</div>
@@ -89,25 +98,33 @@
 					<ul>
 						<li>
 							<i class="icon-check-square-o"></i>
-							Access anytime from anywhere
+							<span>
+								Access anytime from anywhere
+							</span>
 						</li>
 						<li>
 							<i class="icon-check-square-o"></i>
-							Paperless referrals - no more chasing faxes and fielding phone calls and emails
+							<span>
+								Paperless referrals - no more chasing faxes and fielding phone calls and emails
+							</span>
 						</li>
 						<li>
 							<i class="icon-check-square-o"></i>
-							Instant Medicare eligibility check including eligible days remaining, co-pay
-							details and more
+							<span>
+								Instant Medicare eligibility check including eligible days remaining, co-pay details and more
+							</span>
 						</li>
 						<li>
 							<i class="icon-check-square-o"></i>
-							Secure chat messaging to get fast answers and avoid transcribing emails,
-							voicemails and texts
+							<span>
+								Secure chat messaging to get fast answers and avoid transcribing emails, voicemails and texts
+							</span>
 						</li>
 						<li>
 							<i class="icon-check-square-o"></i>
-							Attachments are easy to send with your iPhone camera
+							<span>
+								Attachments are easy to send with your iPhone camera
+							</span>
 						</li>
 
 					</ul>
