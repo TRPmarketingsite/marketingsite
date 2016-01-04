@@ -79,7 +79,7 @@
 				</ul>
 			</div>
 			<div class="col-md-4 col-md-pull-8 col-xs-12 trp-aco-section-2-img">
-				<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/mobile-app.png" alt="">
+				<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/aco-2.png" alt="">
 			</div>
 		</div>
 	</div>
