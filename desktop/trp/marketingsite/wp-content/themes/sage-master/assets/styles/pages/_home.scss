@@ -7,7 +7,8 @@
 	right: -9999px;
 	margin: auto;
 	position: absolute;
-	@media (max-width: 1920px) {
+	width: initial;
+	@media (min-width: 1920px) {
 		width: 100%;
 	}
 }
