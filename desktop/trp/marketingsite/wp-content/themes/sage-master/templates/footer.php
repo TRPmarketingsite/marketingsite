@@ -1,19 +1,19 @@
 <footer class="trp-footer content-info">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-xs-6">
 				<h4>
 					Navigate
 				</h4>
 			</div>
-			<div class="col-md-6">
+			<div class="col-xs-6">
 				<h4 class="pull-right">
 					Follow us
 				</h4>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-1 col-xs-6">
+			<div class="col-md-1 col-xs-3">
 				<nav role="navigation">
 					<?php
 					if (has_nav_menu('footer_navigation_1')) :
@@ -28,7 +28,7 @@
 					?>
 				</nav>
 			</div>
-			<div class="col-md-1 col-xs-6">
+			<div class="col-md-1 col-xs-3">
 				<nav role="navigation">
 					<?php
 					if (has_nav_menu('footer_navigation_2')) :
@@ -44,8 +44,8 @@
 					?>
 				</nav>
 			</div>
-			<div class="col-md-3 col-md-push-7 col-xs-12 col-xs-push-0 social-menu">
-				<nav role="navigation">
+			<div class="col-md-3 col-md-push-7 col-xs-3 col-xs-push-3 social-menu">
+				<nav role="navigation" class="pull-right">
 					<ul class="list-inline">
 						<li>
 							<a href="#">
