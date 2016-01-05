@@ -11,7 +11,7 @@
 				</h1>
 			</div>
 			<div class="col-md-6">
-				<a href="#" class="trp-button">
+				<a href="<?= trp_get_contact_url() ?>" class="trp-button">
 					Let’s Get Started
 				</a>
 			</div>
@@ -114,7 +114,7 @@
 		<span>
 			It’s time to make your life easier.
 		</span>
-		<a href="#" class="trp-button">
+		<a href="<?= trp_get_contact_url() ?>" class="trp-button">
 			Let’s Get Started
 		</a>
 	</div>

@@ -36,7 +36,31 @@ function trp_custom_excerpt_more($more) {
 }
 add_filter('excerpt_more', 'trp_custom_excerpt_more');
 
+/**
+ * Update excerpt length
+ */
 function trp_custom_excerpt_length($length) {
   return 20; 
 }
 add_filter('excerpt_length', 'trp_custom_excerpt_length');
+
+/**
+ * Get contact page url from template
+ */
+function trp_get_contact_url(){
+  $url;
+
+  $pages = query_posts(array(
+    'post_type' =>'page',
+    'meta_key'  =>'_wp_page_template',
+    'meta_value'=> 'page-templates/contact.php'
+  ));
+
+  // Get url
+  $url = null;
+
+  if(isset($pages[0])) {
+    $url = get_page_link($pages[0]->ID);
+  }
+  return $url;
+}

@@ -12,7 +12,7 @@
 			<div class="col-md-10 col-md-offset-2 col-sm-12 col-sm-offset-0 trp-home-masthead-text">
 				<h1>
 					Find the right bed for your patient. <strong>The Right Place.</strong>
-					<a href="#" class="trp-button">
+					<a href="<?= trp_get_contact_url() ?>" class="trp-button">
 						Start Using The App
 					</a>
 				</h1>
@@ -207,7 +207,7 @@
 		<span>
 			It’s time to make your life easier.
 		</span>
-		<a href="#" class="trp-button">
+		<a href="<?= trp_get_contact_url() ?>" class="trp-button">
 			Let’s Get Started
 		</a>
 	</div>

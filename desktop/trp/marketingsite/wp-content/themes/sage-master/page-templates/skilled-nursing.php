@@ -16,7 +16,7 @@
 							The Right Place will allow you to easily manage your facility and make
 							Better, Faster referral decisions and track real-time data.
 						</p>
-						<a href="#" class="trp-button pull-left">
+						<a href="<?= trp_get_contact_url() ?>" class="trp-button pull-left">
 							Start Using the App
 						</a>
 					</div>
@@ -141,7 +141,7 @@
 		<span>
 			It’s time to make your life easier.
 		</span>
-			<a href="#" class="trp-button">
+			<a href="<?= trp_get_contact_url() ?>" class="trp-button">
 				Let’s Get Started
 			</a>
 		</div>

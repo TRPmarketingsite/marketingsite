@@ -15,7 +15,7 @@
 					<p>
 						The Right Place centralizes communication between hospitals, SNFs and ACO management to better facilitate patient transitions
 					</p>
-					<a href="#" class="trp-button pull-left">
+					<a href="<?= trp_get_contact_url() ?>" class="trp-button pull-left">
 						Let’s Get Started
 					</a>
 				</div>
@@ -105,7 +105,7 @@
 		<span>
 			It’s time to make your life easier.
 		</span>
-		<a href="#" class="trp-button">
+		<a href="<?= trp_get_contact_url() ?>" class="trp-button">
 			Let’s Get Started
 		</a>
 	</div>
