@@ -14,6 +14,14 @@
 	}
 }
 
+.dropdown-menu > li > a {
+	padding: 10px 20px;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+	background-color: transparent;
+}
+
 .navbar-brand {
 	img {
 		max-width: 270px;
