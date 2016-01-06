@@ -5,15 +5,10 @@
 <div class="trp-template-header">
 	<div class="trp-template-header-content container">
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-md-12">
 				<h1>
 					Team
 				</h1>
-			</div>
-			<div class="col-md-6">
-				<a href="<?= trp_get_contact_url() ?>" class="trp-button">
-					Let’s Get Started
-				</a>
 			</div>
 		</div>
 	</div>
@@ -109,7 +104,7 @@
 <div class="trp-use-today">
 	<div class="container text-center">
 		<h2>
-			Start Using The Right Place Today
+			Start Using <title class="trp-word-no-wrap">The Right Place</title> Today
 		</h2>
 		<span>
 			It’s time to make your life easier.

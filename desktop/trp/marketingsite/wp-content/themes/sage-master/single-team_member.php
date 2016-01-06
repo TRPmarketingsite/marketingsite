@@ -18,12 +18,6 @@ while ( have_posts() ) : the_post();
                 </div>
             </div>
         </div>
-        <div class="trp-team-nav">
-            <div class="container">
-                <a href="#members">Team</a>
-                <a href="#advisors">Advisors</a>
-            </div>
-        </div>
         <div class="trp-page-body">
             <div class="container">
                 <div class="row">

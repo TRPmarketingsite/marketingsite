@@ -66,7 +66,7 @@
 <div class="trp-use-today">
 	<div class="container text-center">
 		<h2>
-			Start Using The Right Place Today
+			Start Using <span class="trp-word-no-wrap">The Right Place Today</span>
 		</h2>
 		<span>
 			It’s time to make your life easier.
