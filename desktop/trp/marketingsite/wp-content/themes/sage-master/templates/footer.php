@@ -48,8 +48,8 @@
 				<nav role="navigation" class="pull-right">
 					<ul class="list-inline">
 						<li>
-							<a href="#">
-								<i class="icon-facebook"></i>
+							<a href="https://www.linkedin.com/company/the-right-place-trp-" target="_blank">
+								<i class="icon-linkedin"></i>
 							</a>
 						</li>
 						<li>

@@ -13,7 +13,7 @@
 							Skilled Nursing Facilities
 						</h1>
 						<p>
-							The Right Place will allow you to easily manage your facility and make
+							<span class="trp-word-no-wrap">The Right Place</span> will allow you to easily manage your facility and make
 							Better, Faster referral decisions and track real-time data.
 						</p>
 						<a href="<?= trp_get_contact_url() ?>" class="trp-button pull-left">
@@ -130,7 +130,7 @@
 	<div class="trp-use-today">
 		<div class="container text-center">
 			<h2>
-				Start Using The Right Place Today
+				Start Using <title class="trp-word-no-wrap">The Right Place</title> Today
 			</h2>
 		<span>
 			It’s time to make your life easier.

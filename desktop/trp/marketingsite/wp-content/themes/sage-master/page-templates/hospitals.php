@@ -13,7 +13,7 @@
 						Hospitals
 					</h1>
 					<p>
-						The Right Place empowers case managers to search, filter and identify facilities for each patient using one simple tool.
+						<span class="trp-word-no-wrap">The Right Place</span> empowers case managers to search, filter and identify facilities for each patient using one simple tool.
 					</p>
 				</div>
 			</div>
@@ -94,7 +94,7 @@
 <div class="trp-use-today">
 	<div class="container text-center">
 		<h2>
-			Start Using The Right Place Today
+			Start Using <title class="trp-word-no-wrap">The Right Place</title> Today
 		</h2>
 		<span>
 			It’s time to make your life easier.

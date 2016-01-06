@@ -13,7 +13,7 @@
 						Accountable Care Organizations
 					</h1>
 					<p>
-						The Right Place centralizes communication between hospitals and SNFs and alerts ACOs to help better facilitate patient transitions
+						<span class="trp-word-no-wrap">The Right Place</span> centralizes communication between hospitals and SNFs and alerts ACOs to help better facilitate patient transitions
 					</p>
 					<a href="<?= trp_get_contact_url() ?>" class="trp-button pull-left">
 						Let’s Get Started
@@ -100,7 +100,7 @@
 <div class="trp-use-today">
 	<div class="container text-center">
 		<h2>
-			Start Using The Right Place Today
+			Start Using <title class="trp-word-no-wrap">The Right Place</title> Today
 		</h2>
 		<span>
 			It’s time to make your life easier.

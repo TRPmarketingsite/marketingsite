@@ -11,9 +11,9 @@
 		<div class="row">
 			<div class="col-md-10 col-md-offset-2 col-sm-12 col-sm-offset-0 trp-home-masthead-text">
 				<h1>
-					Find the right bed for your patient. <strong>The Right Place.</strong>
+					Find the right bed for your patient. <strong class="trp-word-no-wrap">The Right Place.</strong>
 					<a href="<?= trp_get_contact_url() ?>" class="trp-button">
-						Start Using The App
+						Let's get started
 					</a>
 				</h1>
 			</div>
@@ -27,10 +27,10 @@
 			<div class="col-md-5">
 				<div class="trp-intro-text">
 					<h2>
-						40% of patients discharged from the hospital require post-acute care
+						40% of patients discharged from the hospital require <span class="trp-word-no-wrap">post-acute</span> care
 					</h2>
 					<p>
-						 Introducing <strong>The Right Place</strong>: a communication solution that empowers hospitals and post-acute providers to match the right patient in the right place of care quickly and efficiently.
+						 Introducing <strong class="trp-word-no-wrap">The Right Place</strong>: a communication solution that empowers hospitals and post-acute providers to match the right patient to the right place of care quickly and efficiently.
 					</p>
 				</div>
 			</div>
@@ -44,11 +44,11 @@
 
 <div class="trp-features container text-center">
 		<h2>
-			The Right Place for your facility
+			<span class="trp-word-no-wrap">The Right Place</span> for you
 		</h2>
 		<div class="row">
 			<p class="trp-features-p col-md-4 col-md-offset-4">
-				We built custom applications for each type of facility and their specific needs.
+				We built specific applications for care providers
 			</p>
 		</div>
 		<div class="row">
@@ -202,7 +202,7 @@
 <div class="trp-use-today">
 	<div class="container text-center">
 		<h2>
-			Start Using The Right Place Today
+			Start Using <title class="trp-word-no-wrap">The Right Place</title> Today
 		</h2>
 		<span>
 			It’s time to make your life easier.
