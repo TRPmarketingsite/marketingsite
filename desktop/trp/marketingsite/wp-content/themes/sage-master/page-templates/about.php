@@ -9,7 +9,7 @@
 			<div class="col-md-10 text-left">
 				<div class="trp-aco-hero-align">
 					<h1>
-						About The Right Place
+						About <span class="trp-word-no-wrap">The Right Place</span>
 					</h1>
 					<p>
 						The Right Place provides a more fluid and efficient process for service providers to identify and match patients to the right place of care in a simpler way.
@@ -32,7 +32,7 @@
 						A brief history
 					</h2>
 					<span class="trp-about-text">
-						Dr. Alan Abrams and Katherine Chambers developed The Right Place beginning in 2013 after Dr. Abrams recognized a particular pain point in the process of how patients are discharged from hospitals to skilled nursing facilities (SNFs) which often takes too long. With over 30 years of experience in geriatric medicine, Dr. Abrams has managed patient care in and around multiple settings from hospitals to nursing homes and home health services. Katherine comes to the partnership with a wealth of knowledge in developing online products from her time at HomeAway, Inc., and Starwood Hotels.
+						Dr. Alan Abrams and Katherine Chambers developed The Right Place beginning in 2013 after Dr. Abrams recognized a particular pain point in the process of how patients are discharged from hospitals to skilled nursing facilities (SNFs). With over 30 years of experience in geriatric medicine, Dr. Abrams has managed patient care in and around multiple settings from hospitals to nursing homes and home health services. Katherine comes to the partnership with a wealth of knowledge in developing online products from her time at Starwood Hotels Worldwide and HomeAway, Inc.
 					</span>
 				</div>
 			</div>
