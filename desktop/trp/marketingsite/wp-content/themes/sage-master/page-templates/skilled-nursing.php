@@ -17,7 +17,7 @@
 							Better, Faster referral decisions and track real-time data.
 						</p>
 						<a href="<?= trp_get_contact_url() ?>" class="trp-button pull-left">
-							Start Using the App
+							Let’s Get Started
 						</a>
 					</div>
 				</div>
@@ -39,19 +39,13 @@
 						<li>
 							<i class="icon-check-square-o"></i>
 							<span>
-								Entirely customized for your facility
+								Entirely customized for your facility. Your units, your rooms, your beds Manage beds in a real-time, secure solution
 							</span>
 						</li>
 						<li>
 							<i class="icon-check-square-o"></i>
 							<span>
-								Manage beds in a real-time, secure solution - your beds, your rooms, your numbers
-							</span>
-						</li>
-						<li>
-							<i class="icon-check-square-o"></i>
-							<span>
-								Move about your facility with real-time access anytime, anywhere
+								Move about your facility with real-time access
 							</span>
 						</li>
 						<li>
@@ -69,7 +63,7 @@
 						<li>
 							<i class="icon-check-square-o"></i>
 							<span>
-								No more faxing and emailing. Documents can be attached with the click of a button.
+								No more faxing and emailing. Documents can be attached with the click of a button
 							</span>
 						</li>
 					</ul>
@@ -93,7 +87,7 @@
 						The Right Place Case Messenger App for iPhone
 					</p>
 					<h2>
-						The fast, simple and safe way to create and share patient retferral data from anywhere.
+						The fast, simple and safe way to create and share patient referral data from anywhere.
 					</h2>
 					<ul>
 						<li>

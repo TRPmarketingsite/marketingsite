@@ -26,9 +26,6 @@
 		<div class="row">
 			<div class="col-md-5">
 				<div class="trp-hospitals-section-1">
-					<p>
-						The Right Place for Hospitals
-					</p>
 					<h2>
 						Match the right patient to the right bed
 					</h2>

@@ -13,7 +13,7 @@
 						Accountable Care Organizations
 					</h1>
 					<p>
-						The Right Place centralizes communication between hospitals, SNFs and ACO management to better facilitate patient transitions
+						The Right Place centralizes communication between hospitals and SNFs and alerts ACOs to help better facilitate patient transitions
 					</p>
 					<a href="<?= trp_get_contact_url() ?>" class="trp-button pull-left">
 						Let’s Get Started
@@ -36,19 +36,19 @@
 						<li>
 							<i class="icon-check-square-o"></i>
 							<span>
-								Look at availability and patient mix amongst all network SNFs
+								Real-time tracking
 							</span>
 						</li>
 						<li>
 							<i class="icon-check-square-o"></i>
 							<span>
-								Track patients through auto-generated real time alerts and ACO patient dashboard
+								Track patients through auto-generated real time alerts on your ACO patient dashboard
 							</span>
 						</li>
 						<li>
 							<i class="icon-check-square-o"></i>
 							<span>
-								Measure performance on quality and outcomes of in-network and out-of-network SNFs 
+								Review stay patterns and patient mix amongst all network SNFs
 							</span>
 						</li>
 					</ul>
