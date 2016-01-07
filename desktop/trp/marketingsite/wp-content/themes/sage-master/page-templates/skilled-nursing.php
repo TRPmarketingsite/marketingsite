@@ -57,7 +57,7 @@
 						<li>
 							<i class="icon-check-square-o"></i>
 							<span>
-								Instanly check Medicare eligibility on potential patients
+								Instantly check Medicare eligibility on potential patients
 							</span>
 						</li>
 						<li>
