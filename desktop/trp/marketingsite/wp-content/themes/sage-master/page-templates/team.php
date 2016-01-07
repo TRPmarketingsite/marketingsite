@@ -3,7 +3,8 @@
 ?>
 
 <div class="trp-template-header">
-	<div class="trp-template-header-content container">
+	<img class="trp-about-banner" src="<?php echo get_template_directory_uri() . '/assets/images/team-banner.jpg' ?>" alt="">
+	<div class="trp-template-header-content container trp-about-banner-text">
 		<div class="row">
 			<div class="col-md-12">
 				<h1>
