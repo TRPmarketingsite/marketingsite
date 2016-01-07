@@ -21,6 +21,21 @@
 	z-index: 1;
 }
 
+.trp-about-banner {
+	top: -9999px;
+	bottom: -9999px;
+	left: -9999px;
+	right: -9999px;
+	margin: auto;
+	width: initial;
+	position: absolute;
+}
+
+.trp-about-banner-text {
+	z-index: 9999;
+	position: relative;
+}
+
 .trp-home-intro {
 	color: #40474f;
 	img {

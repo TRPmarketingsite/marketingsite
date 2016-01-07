@@ -1,6 +1,8 @@
 .trp-template-header {
-	height: 236px;
+	height: 235px;
 	background-color: $brand-primary;
+	position: relative;
+	overflow: hidden;
 	.trp-template-header-content {
 		padding-top: 85px;
 		color: #fff;
