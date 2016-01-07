@@ -105,7 +105,7 @@
 		<div class="row">
 			<div class="col-md-8">
 				<h2>
-					In health care, we believe patient and data security is crucial
+					In healthcare, we believe patient and data security is crucial
 				</h2>
 				<ul>
 					<li>
