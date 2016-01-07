@@ -47,7 +47,7 @@
 			<span class="trp-word-no-wrap">The Right Place</span> for you
 		</h2>
 		<div class="row">
-			<p class="trp-features-p col-md-4 col-md-offset-4">
+			<p class="trp-features-p col-md-12">
 				We built specific applications for care providers
 			</p>
 		</div>
@@ -155,7 +155,7 @@
 					<li>
 						<i class="icon-check-square-o"></i>
 						<span>
-							Learn from the data trends including occupancy, referral volume, current mix of payer source, average length of stay, gender mix,
+							Learn from the data trends including occupancy, referral volume, current mix of payer source, average length of stay, gender mix
 						</span>
 					</li>
 					<li>
