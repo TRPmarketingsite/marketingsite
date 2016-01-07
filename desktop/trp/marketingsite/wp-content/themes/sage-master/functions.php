@@ -64,3 +64,17 @@ function trp_get_contact_url(){
   }
   return $url;
 }
+
+
+/**
+ * Add login button to primary navigation
+ */
+function trp_add_login_button_to_primary_navbar($items, $args) {
+  // Add login button only to primary navigation
+  if ($args->theme_location == 'primary_navigation') {
+    $homelink = '<li class="trp-login"><a href="#" class="trp-button">Login</a></li>';
+    $items = $items . $homelink;
+  }
+  return $items;
+}
+add_filter( 'wp_nav_menu_items', 'trp_add_login_button_to_primary_navbar', 10, 2 );

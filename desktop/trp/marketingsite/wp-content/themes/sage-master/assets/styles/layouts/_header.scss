@@ -14,6 +14,22 @@
 	}
 }
 
+.trp-login {
+	padding-left: 15px;
+	a.trp-button {
+		margin-top: 0px;
+		color: white !important;
+		padding: 12px 27px;
+		&:hover,
+		&:active,
+		&:focus {
+			text-decoration: none!important;
+			color: #fff!important;
+			background-color: #dd2d52!important;
+		}
+	}
+}
+
 .dropdown-menu > li > a {
 	padding: 10px 20px;
 }
