@@ -99,7 +99,7 @@
 						<li>
 							<i class="icon-check-square-o"></i>
 							<span>
-								Paperless referrals - no more chasing faxes and fielding phone calls and emails
+								Paperless referrals. No more chasing faxes and fielding phone calls and emails
 							</span>
 						</li>
 						<li>
