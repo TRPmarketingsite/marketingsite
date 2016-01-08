@@ -99,7 +99,8 @@ function display_sidebar() {
     is_page_template('page-templates/newsroom.php'),
     is_page_template('page-templates/hospitals.php'),
       is_page_template('page-templates/skilled-nursing.php'),
-      is_page_template('page-templates/terms.php')
+      is_page_template('page-templates/terms.php'),
+      is_page_template('page-templates/privacy-police.php')
   ]);
 
   return apply_filters('sage/display_sidebar', $display);
