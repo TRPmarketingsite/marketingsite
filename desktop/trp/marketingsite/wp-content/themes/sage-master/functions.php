@@ -65,6 +65,68 @@ function trp_get_contact_url(){
   return $url;
 }
 
+/**
+ * Get hospitals page url from template
+ */
+function trp_get_hospitals_url(){
+  $url;
+
+  $pages = query_posts(array(
+    'post_type' =>'page',
+    'meta_key'  =>'_wp_page_template',
+    'meta_value'=> 'page-templates/hospitals.php'
+  ));
+
+  // Get url
+  $url = null;
+
+  if(isset($pages[0])) {
+    $url = get_page_link($pages[0]->ID);
+  }
+  return $url;
+}
+
+/**
+ * Get aco page url from template
+ */
+function trp_get_aco_url(){
+  $url;
+
+  $pages = query_posts(array(
+    'post_type' =>'page',
+    'meta_key'  =>'_wp_page_template',
+    'meta_value'=> 'page-templates/aco.php'
+  ));
+
+  // Get url
+  $url = null;
+
+  if(isset($pages[0])) {
+    $url = get_page_link($pages[0]->ID);
+  }
+  return $url;
+}
+
+/**
+ * Get nsf page url from template
+ */
+function trp_get_nsf_url(){
+  $url;
+
+  $pages = query_posts(array(
+    'post_type' =>'page',
+    'meta_key'  =>'_wp_page_template',
+    'meta_value'=> 'page-templates/skilled-nursing.php'
+  ));
+
+  // Get url
+  $url = null;
+
+  if(isset($pages[0])) {
+    $url = get_page_link($pages[0]->ID);
+  }
+  return $url;
+}
 
 /**
  * Add login button to primary navigation

@@ -52,21 +52,6 @@
 			</p>
 		</div>
 		<div class="row">
-		<div class="col-md-4 col-xs-12 trp-features-hospitals">
-			<div class="trp-feature-helper"></div>
-			<div class="trp-feature">
-				<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/hospitals-logo.png" alt="">
-				<h4>
-					HOSPITALS
-				</h4>
-				<p>
-					Hospital Case Managers can quickly search and identify available SNFs by capabilities and needs of the patient
-				</p>
-				<a href="#">
-					Learn More
-				</a>
-			</div>
-		</div>
 		<div class="col-md-4 col-xs-12 trp-features-facilities">
 			<div class="trp-feature-helper"></div>
 			<div class="trp-feature">
@@ -77,7 +62,22 @@
 				<p>
 					Easily manage your beds and make better, faster referral decisions using real-time data
 				</p>
-				<a href="">
+				<a href="<?= trp_get_nsf_url() ?>">
+					Learn More
+				</a>
+			</div>
+		</div>
+		<div class="col-md-4 col-xs-12 trp-features-hospitals">
+			<div class="trp-feature-helper"></div>
+			<div class="trp-feature">
+				<img src="<?= get_stylesheet_directory_uri() ?>/assets/images/hospitals-logo.png" alt="">
+				<h4>
+					HOSPITALS
+				</h4>
+				<p>
+					Hospital Case Managers can quickly search and identify available SNFs by capabilities and needs of the patient
+				</p>
+				<a href="<?= trp_get_hospitals_url() ?>">
 					Learn More
 				</a>
 			</div>
@@ -92,7 +92,7 @@
 				<p>
 					Track patients through auto-generated real time alerts and ACO patient dashboard
 				</p>
-				<a href="#">
+				<a href="<?= trp_get_aco_url() ?>">
 					Learn More
 				</a>
 			</div>
