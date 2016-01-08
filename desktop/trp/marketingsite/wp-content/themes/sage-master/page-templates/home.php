@@ -5,7 +5,7 @@
 <div class="trp-home-masthead">
 	<div class="trp-hero-overlay"></div>
 	<video id="trp-video" muted autoplay loop poster="<?= get_stylesheet_directory_uri() ?>/assets/images/video-poster.jpg">
-		<source src="<?= get_stylesheet_directory_uri() ?>/assets/images/trp-video2.mp4">
+		<source src="<?= get_stylesheet_directory_uri() ?>/assets/images/trp-video(FINAL).mp4">
 	</video>
 	<div class="container">
 		<div class="row">
