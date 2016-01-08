@@ -12,7 +12,7 @@
 						The Right Place is a Division of Cooperative Health Solutions
 					</p>
 				</div>
-				<div class="col-md-2 col-xs-12 col-md-push-1">
+				<div class="col-md-2 col-xs-12 col-md-push-2">
 					<nav role="navigation navigation-terms">
 						<ul class="list-inline">
 							<li>
@@ -28,7 +28,7 @@
 						</ul>
 					</nav>
 				</div>
-				<div class="col-md-3 col-xs-12">
+				<div class="col-md-3 col-xs-12 col-md-push-1">
 					<p>© <?= date('Y') ?>. All Rights Reserved.</p>
 					<ul class="list-inline">
 						<li>
