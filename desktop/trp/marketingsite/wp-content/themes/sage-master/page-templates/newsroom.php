@@ -33,7 +33,7 @@ $latestNewsroomPosts = get_posts( array('posts_per_page' => 2, 'orderby' => 'dat
 			<?php endforeach; 
 			wp_reset_postdata();?>
 		</div>
-		<div class="col-md-offset-1 col-md-4 text-center">
+		<div class="col-md-offset-1 col-md-4 text-center trp-newsroom-sidebar">
 			<h3 class="trp-recent-posts-title">
 				Recent Blog Posts
 			</h3>
