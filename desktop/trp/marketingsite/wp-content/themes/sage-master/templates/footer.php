@@ -32,13 +32,13 @@
 					<p>© <?= date('Y') ?>. All Rights Reserved.</p>
 					<ul class="list-inline">
 						<li>
-							<a href="#">
+							<a href="<?php echo esc_url( get_permalink( get_page_by_title( 'Terms of use' ) ) ); ?>">
 								Terms of Use
 							</a>
 						</li>
 						<li>|</li>
 						<li>
-							<a href="#">
+							<a href="<?php echo esc_url( get_permalink( get_page_by_title( 'Privacy Police' ) ) ); ?>">
 								Privacy Policy
 							</a>
 						</li>
