@@ -67,6 +67,18 @@
 }
 
 .page-template-page-templateshome-php {
+	.trp-aco-section-2-img img {
+		margin-bottom: 0px;
+		@media (max-width: $screen-md-min) {
+			margin-top: 70px;
+		}
+	}
+
+	.trp-mobile-app h2 {
+		@media (max-width: $screen-md-min) {
+			margin-top: 70px;
+		}
+	}
 	header {
 		background-color: #f5fefe;
 		height: 150px;
