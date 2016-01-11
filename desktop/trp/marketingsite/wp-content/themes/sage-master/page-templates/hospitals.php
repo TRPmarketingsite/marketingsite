@@ -15,6 +15,9 @@
 					<p>
 						<span class="trp-word-no-wrap">The Right Place</span> empowers case managers to search, filter and identify facilities for each patient using one simple tool.
 					</p>
+					<a href="<?= trp_get_contact_url() ?>" class="trp-button pull-left">
+						Let’s Get Started
+					</a>
 				</div>
 			</div>
 		</div>

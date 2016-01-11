@@ -6,7 +6,13 @@
 	<div class="trp-hero-overlay"></div>
 	<img class="trp-about-banner" src="<?php echo get_template_directory_uri() . '/assets/images/contact-banner.jpg' ?>" alt="">
 	<div class="trp-template-header-content container trp-about-banner-text">
-		<h1>Contact</h1>
+		<div class="row">
+			<div class="col-md-12">
+				<h1>
+					Contact
+				</h1>
+			</div>
+		</div>
 	</div>
 </div>
 

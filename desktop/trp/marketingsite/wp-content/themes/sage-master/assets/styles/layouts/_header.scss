@@ -16,6 +16,17 @@
 	}
 }
 
+.page-template-page-templatesteam-php,
+.page-template-page-templatescontact-php {
+	.trp-template-header {
+		height: 478px;
+		z-index: 0;
+	}
+	.trp-template-header-content {
+		padding-top: 185px;
+	}
+}
+
 .trp-login {
 	padding-left: 15px;
 	a.trp-button {
@@ -34,6 +45,12 @@
 
 .dropdown-menu > li > a {
 	padding: 10px 20px;
+}
+
+.navbar-nav {
+	.icon-angle-down1 {
+		font-size: 17px;
+	}
 }
 
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
@@ -83,9 +100,15 @@
 }
 
 .trp-hero-products {
+	height: 100%;
 	max-height: 660px;
 	.trp-aco-hero-align {
 		padding: 80px 0;
+	}
+	img {
+		@media (max-width: $screen-md-min) {
+			margin-top: 30px;
+		}
 	}
 }
 
