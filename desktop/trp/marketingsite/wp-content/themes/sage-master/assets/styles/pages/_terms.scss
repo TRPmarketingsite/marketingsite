@@ -10,3 +10,30 @@
     padding: 100px 0;
   }
 }
+.baa, .eula{
+  p{
+    color: #40474f;
+    text-align: left;
+    font-size: 17px;
+    line-height: 27px;
+    margin: 30px 0;
+  }
+  .terms-text{
+    padding: 100px 0;
+  }
+  ol{
+    li{
+      color: #40474f;
+      text-align: left;
+      font-size: 17px;
+      line-height: 27px;
+      margin: 10px 0;
+    }
+  }
+}
+.eula-title{
+  padding-top: 55px !important;
+  h1{
+    font-size: 50px;
+  }
+}
