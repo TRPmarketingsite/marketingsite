@@ -4,7 +4,7 @@
 
 <div class="trp-template-header">
     <div class="trp-template-header-content container">
-        <h1>Privacy Police</h1>
+        <h1>Privacy Policy</h1>
     </div>
 </div>
 <section class="terms">
