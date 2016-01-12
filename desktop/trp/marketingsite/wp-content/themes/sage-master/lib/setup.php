@@ -100,7 +100,9 @@ function display_sidebar() {
     is_page_template('page-templates/hospitals.php'),
       is_page_template('page-templates/skilled-nursing.php'),
       is_page_template('page-templates/terms.php'),
-      is_page_template('page-templates/privacy-police.php')
+      is_page_template('page-templates/privacy-police.php'),
+      is_page_template('page-templates/baa.php'),
+      is_page_template('page-templates/eula.php')
   ]);
 
   return apply_filters('sage/display_sidebar', $display);
