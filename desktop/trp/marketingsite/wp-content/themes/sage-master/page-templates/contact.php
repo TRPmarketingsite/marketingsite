@@ -44,7 +44,7 @@
 			<h4>
 				send us a message
 			</h4>
-			<?php echo do_shortcode( '[contact-form-7 id="72"]' ); ?>
+			<?php echo do_shortcode( '[contact-form-7 title="Contact form"]' ); ?>
 		</div>
 	</div>
 </div>
