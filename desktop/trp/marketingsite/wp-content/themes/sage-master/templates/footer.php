@@ -38,7 +38,7 @@
 						</li>
 						<li>|</li>
 						<li>
-							<a href="<?php echo esc_url( get_permalink( get_page_by_title( 'Privacy Police' ) ) ); ?>">
+							<a href="<?php echo esc_url( get_permalink( get_page_by_title( 'Privacy Policy' ) ) ); ?>">
 								Privacy Policy
 							</a>
 						</li>
