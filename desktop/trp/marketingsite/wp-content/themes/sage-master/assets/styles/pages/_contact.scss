@@ -43,6 +43,7 @@
 		margin-left: 20px;
 		display: block;
 		position: absolute;
+		z-index: 1;
 	}
 	h4 {
 		text-transform: uppercase;
@@ -59,6 +60,7 @@
 		width: 100%;
 		font-family: ProximaNovaRegular;
 	}
+	input[type=email],
 	input[type=text],
 	textarea {
 		background-color: #f2f2f2;
@@ -78,6 +80,13 @@
 		font-weight: bold;
 		color: #fff;
 		font-family: ProximaNovaBold;
+		&:hover,
+		&:active,
+		&:focus {
+			text-decoration: none!important;
+			color: #fff!important;
+			background-color: #dd2d52!important;
+		}
 	}
 	textarea {
 		padding-top: 20px;
