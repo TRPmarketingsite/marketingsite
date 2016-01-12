@@ -39,7 +39,13 @@
 						<li>
 							<i class="icon-check-square-o"></i>
 							<span>
-								Entirely customized for your facility. Your units, your rooms, your beds Manage beds in a real-time, secure solution
+								Entirely customized for your facility. Your units, your rooms, your beds
+							</span>
+						</li>
+						<li>
+							<i class="icon-check-square-o"></i>
+							<span>
+								Manage beds in a real-time, secure solution
 							</span>
 						</li>
 						<li>
