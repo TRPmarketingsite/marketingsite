@@ -16,20 +16,20 @@
 	.trp-contact-number {
 		margin-bottom: 75px;
 		display: block;
-		font-family: ProximaNovaRegular;
-		strong {
-			font-family: ProximaNovaBold;
+		font-family: ProximaNovaLight;
+		span {
+			font-family: ProximaNovaRegular;
 		}
 	}
 	span {
-		font-family: ProximanovaRegular;
+		font-family: ProximaNovaLight;
 		font-size: 20px;
 	}
 	.trp-office-label {
 		color: $brand-primary;
 		display: block;
 		margin-top: 35px;
-		font-family: ProximanovaBold;
+		font-family: ProximanovaRegular;
 	}
 }
 
