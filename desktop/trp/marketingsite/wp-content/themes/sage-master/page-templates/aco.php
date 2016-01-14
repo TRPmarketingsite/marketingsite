@@ -13,7 +13,7 @@
 						Accountable Care Organizations
 					</h1>
 					<p>
-						<span class="trp-word-no-wrap">The Right Place</span> centralizes communication between hospitals and SNFs and alerts ACOs to help better facilitate patient transitions
+						<span class="trp-word-no-wrap">The Right Place</span> centralizes communication between hospitals and SNFs and alerts ACOs to help better facilitate patient transitions.
 					</p>
 					<a href="<?= trp_get_contact_url() ?>" class="trp-button pull-left">
 						Let’s Get Started

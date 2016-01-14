@@ -48,3 +48,36 @@
 		</div>
 	</div>
 </div>
+
+<script>
+jQuery(document).ready(function() {
+	
+	jQuery(document).on('click', ".wpcf7-submit", function() {
+		
+		jQuery(document).ajaxComplete( function(data) {
+			jQuery('[aria-required=true].wpcf7-form-control').each(function() {
+				if ( jQuery(this).hasClass('wpcf7-not-valid') ) {
+					jQuery(this).parent().parent().addClass('trp-invalid-field');
+					jQuery(this).parent().parent().removeClass('trp-valid-field');
+				}
+				else {
+					jQuery(this).parent().parent().addClass('trp-valid-field');
+					jQuery(this).parent().parent().removeClass('trp-invalid-field');
+				}
+
+			});
+
+			if ( jQuery('form.wpcf7-form').hasClass('sent') ) {
+
+				jQuery('body').append('<div id="trp-success-overlay"><div class="trp-success-overlay-helper"><p>Thank you for reaching out! We will be in touch very soon.<span>-The Right Place Team</span></p></div></div>');
+				jQuery('#trp-success-overlay').hide().fadeIn('slow');
+
+				setTimeout(function(){
+					jQuery('#trp-success-overlay').fadeOut('slow', function(){ jQuery('#trp-success-overlay').remove(); });
+				}, 5000);
+			}
+		});
+	});
+
+});
+</script>

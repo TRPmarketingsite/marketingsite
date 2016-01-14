@@ -1,6 +1,14 @@
 .trp-footer {
   	ul{
-	  margin-left: 12px;
+		display: inline-block;
+	}
+	.trp-footer-copyright {
+		display: inline-block;
+		float: left;
+		margin-right: 10px;
+		@media (max-width: $screen-md-min) {
+			float: none;
+		}
 	}
 	h4 {
 		text-transform: uppercase;
@@ -46,15 +54,18 @@
 		}
 	}
 	.bottom-footer {
+		display: inline-block;
+		width: 100%;
 		margin-top: 50px;
 		margin-bottom: 50px;
 		@media (max-width: $screen-md-min) {
 			text-align: center;
 		}
 		p {
-			font-size: 18px;
-			font-family: ProximaNovaLight;
-			color: #7e8893;
+			font-size: 16px;
+			font-family: ProximaNovaRegular;
+			color: #7d8792;
+
 		}
 	}
 	.terms {
@@ -88,4 +99,53 @@
 			}
 		}
 	}
+}
+
+#mc-embedded-subscribe-form {
+	label {
+		display: block;
+		font-family: ProximaNovaRegular;
+		font-size: 18px;
+		color: #7e8893;
+		font-weight: initial;
+	}
+}
+
+input#mce-EMAIL {
+	border: none;
+	height: 64px;
+	width: 100%;
+	max-width: 380px;
+	padding-left: 22px;
+	padding-right: 0px;
+	margin: 0px;
+	font-family: ProximaNovaRegular;
+	font-size: 20px;
+	float: left;
+	@media (max-width: $screen-md-min) {
+		float: none;
+	}
+	margin-right: -5px;
+}
+
+input#mc-embedded-subscribe {
+	height: 64px;
+	margin-left: -5px;
+	border: none;
+	width: 100%;
+	max-width: 160px;
+	padding: 0px;
+	margin: 0px;
+	background: #53c1c0;
+	color: #fff;
+	font-family: ProximaNovaRegular;
+	font-size: 20px;
+	float: left;
+	@media (max-width: $screen-md-min) {
+		float: none;
+	}
+}
+
+label[for='mce-EMAIL'] {
+	color: #53c1c0!important;
 }

@@ -11,7 +11,7 @@
 		<div class="row">
 			<div class="col-md-10 col-md-offset-2 col-sm-12 col-sm-offset-0 trp-home-masthead-text">
 				<h1>
-					Find the right bed for your patient. <strong class="trp-word-no-wrap">The Right Place.</strong>
+					Find the right bed for your patient <strong class="trp-word-no-wrap">The Right Place</strong>
 					<a href="<?= trp_get_contact_url() ?>" class="trp-button">
 						Let's get started
 					</a>
