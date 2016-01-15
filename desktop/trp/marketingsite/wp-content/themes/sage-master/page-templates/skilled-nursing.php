@@ -13,8 +13,7 @@
 							Skilled Nursing Facilities
 						</h1>
 						<p>
-							<span class="trp-word-no-wrap">The Right Place</span> will allow you to easily manage your facility and make
-							better & faster referral decisions and track real-time data.
+							<span class="trp-word-no-wrap">The Right Place</span> will allow you to easily manage your facility and make better, faster referral decisions and track real-time data.
 						</p>
 						<a href="<?= trp_get_contact_url() ?>" class="trp-button pull-left">
 							Let’s Get Started
