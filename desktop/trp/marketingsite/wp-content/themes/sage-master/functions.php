@@ -134,7 +134,7 @@ function trp_get_nsf_url(){
 function trp_add_login_button_to_primary_navbar($items, $args) {
   // Add login button only to primary navigation
   if ($args->theme_location == 'primary_navigation') {
-    $homelink = '<li class="trp-login"><a href="#" class="trp-button">Login</a></li>';
+    $homelink = '<li class="trp-login"><a href="https://app.therightplace.com/login" class="trp-button">Login</a></li>';
     $items = $items . $homelink;
   }
   return $items;
