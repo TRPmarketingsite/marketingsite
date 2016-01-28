@@ -41,6 +41,33 @@
 	}
 }
 
+// Single blog post 
+
+.single-post {
+	.trp-single-post-container {
+		.entry-title {
+			color: #3dadac;
+			font-size: 30px;
+			font-family: ProximaNovaLight;
+		}
+		.entry-content {
+			p {
+				line-height: 1.428571429;
+				font-family: ProximaNovaLight;
+				font-size: 20px;
+				color: #40474f;
+			}
+		}
+		.updated {
+			font-family: ProximaNovaBold;
+			font-size: 20px;
+			color: #63c4c3;
+			padding: 10px 0;
+			display: block;
+		}
+	}
+}
+
 // Newsroom template
 
 .trp-newsroom-header {
@@ -53,26 +80,30 @@
 	}
 }
 
-.trp-recent-post {
-	border: 1px solid #bababa;
-	margin: 19px 0px;
-	img {
-		padding-top: 25px;
-	}
-	.entry-title {
-		font-size: 12px;
-		margin-top: 39px;
-	}
-	.entry-summary {
-		p {
-			font-size: 18px;
-			padding: 0 30px;
+.trp-newsroom-sidebar {
+	.trp-recent-post {
+		border: 1px solid #bababa;
+		margin: 19px 0px;
+		img {
+			padding-top: 25px;
 		}
-	}
-	.trp-keep-reading {
-		margin-bottom: 42px;
-		a {
-			font-size: 14px;
+		.entry-title {
+			time {
+				font-size: 12px!important;
+				margin-top: 39px!important;
+			}
+		}
+		.entry-summary {
+			p {
+				font-size: 18px;
+				padding: 0 30px;
+			}
+		}
+		.trp-keep-reading {
+			margin-bottom: 42px;
+			a {
+				font-size: 14px;
+			}
 		}
 	}
 }
