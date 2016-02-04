@@ -12,6 +12,9 @@
 					<?php the_title(); ?>
 				</p>
 			</div>
+			<div class="entry-excerpt">
+				<?php the_excerpt() ?>
+			</div>
 			<p class="trp-keep-reading"> <a href="<?= get_post_permalink($post->ID) ?>">Click here to keep reading</a></p>
 			<hr>
 		</div>
