@@ -173,7 +173,14 @@
 
 <div class="trp-testimonials text-center">
 	<?php 
-	$testimonials = query_posts(array('post_type' => 'testimonial','post_status' => 'publish'));
+
+	$cookie_name = 'post_id';
+	$post_to_exclude;
+	if ( isset($_COOKIE[$cookie_name]) ) {
+		$post_to_exclude = array($_COOKIE[$cookie_name]);
+	}
+	
+	$testimonials = query_posts(array('post_type' => 'testimonial','post_status' => 'publish', 'post__not_in' => $post_to_exclude ));
 
 	if (count($testimonials)) {
 		shuffle($testimonials);
@@ -184,7 +191,9 @@
 	$trp_testimonial_name = get_post_meta( $testimonial->ID, 'trp-testimonial-name', true );
 	$trp_testimonial_hospital = get_post_meta( $testimonial->ID, 'trp-testimonial-hospital', true );
 
+	setcookie($cookie_name, $testimonial->ID, time() + (86400 * 365), '/');
 	?>
+
 	<div class="container">
 		<i class="icon-quote"></i>
 		<h3 class="trp-testimonial-title">
