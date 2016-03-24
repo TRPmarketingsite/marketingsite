@@ -177,3 +177,13 @@ function trp_textarea_placeholder( $fields ) {
   return $fields;
 }
 add_filter( 'comment_form_defaults', 'trp_textarea_placeholder' );
+
+/**
+* Get all blog posts available
+*/
+function trp_modify_query_limit_posts( $query ) {
+  if ( $query->is_home ) {
+    $query->set('posts_per_page', '-1');
+  }
+}
+add_action( 'pre_get_posts', 'trp_modify_query_limit_posts');

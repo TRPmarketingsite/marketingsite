@@ -1,7 +1,7 @@
 <?php
 /* Template Name: Newsroom */
 
-$newsroomPosts = get_posts( array('posts_per_page' => 5, 'category_name' => 'News' ) );
+$newsroomPosts = get_posts( array('posts_per_page' => -1, 'category_name' => 'News' ) );
 $latestNewsroomPosts = get_posts( array('posts_per_page' => 2, 'orderby' => 'date', 'order'=> 'DESC', 'cat' => '-'.get_cat_ID('News')) );
 ?>
 
